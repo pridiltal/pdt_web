@@ -14,10 +14,10 @@ website:
     center: 
       - text: "About"
         href: about.qmd
-      - text: "License"
-        href: license.qmd
-      - text: "Trademark"
-        href: trademark.qmd
+     # - text: "License"
+      #  href: license.qmd
+    #  - text: "Trademark"
+     #   href: trademark.qmd
     background: "#000000"
 
 format:
