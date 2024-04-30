@@ -27,8 +27,36 @@ I am a senior lecturer in the [Department of Computational Mathematics, Universi
 
 I'm a fellow of OWSD, a UNESCO program, from 2021 to 2025. Additionally, I co-founded [R-Ladies Colombo](https://rladiescolombo.netlify.com/) a local chapter of the [R-Ladies Global Organization](https://www.rladies.org) which aims to promote gender diversity in the R programming community.
 
-My research revolves around statistical machine learning, and data mining. I'm passionate about developing innovative methods and tools to analyze complex data. I am also strongly committed to developing open-source software tools to facilitate reproducible research. You can check out some of my projects [here:](https://prital.netlify.com/#projects) Visit me on [Twitter](https://twitter.com/pridiltal) I post mostly about R, Python, statistics, data science, and science in nature. 
+My research revolves around Computational Statistics, Anomaly Detection, Time series analysis and forecasting, Statistical Machine Learning and Machine learning interpretability. I'm passionate about developing innovative methods and tools to analyze complex data. I am also strongly committed to developing open-source software tools to facilitate reproducible research. You can check out some of my projects [here:](https://prital.netlify.com/#projects) Visit me on [Twitter](https://twitter.com/pridiltal) I post mostly about R, Python, statistics, data science, and science in nature. 
 
 From 2021 to 2024, I served as an associate editor for [The R Journal](https://journal.r-project.org/). I've also contributed as an Associate Investigator at the [Australian Research Council's (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS)](https://acems.org.au/our-people/priyanga-dilini-talagala) from 2019 to 2021.
 
 [Thiyanga Talagala, PhD in Statistics, Monash University, Australia](https://thiyanga.netlify.com/) is my sister.
+
+### Education
+
+&#x1F393; PhD in Statistics, 2019, Monash University, Australia
+
+&#x1F393; BSc (Hons) Special Degree in Statistics, 2013, University of Sri Jayewardenepura, Sri Lanka
+
+&#x1F393; Batch first and Professor R A Dayananda Gold Medalist, 2013
+
+### Interests
+
+-   Computational statistics
+
+-    Statistical machine learning
+
+-   Machine learning interpretability
+
+-   Anomaly detection
+
+-   Time series analysis and forecasting
+
+-   Streaming data mining
+
+-   Responsible AI
+
+-   Applied statistics
+
+-   R programming
