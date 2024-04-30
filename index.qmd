@@ -35,17 +35,17 @@ From 2021 to 2024, I served as an associate editor for [The R Journal](https://j
 
 ### Education
 
-&#x1F393; PhD in Statistics, 2019, Monash University, Australia
+🎓 PhD in Statistics, 2019, Monash University, Australia
 
-&#x1F393; BSc (Hons) Special Degree in Statistics, 2013, University of Sri Jayewardenepura, Sri Lanka
+🎓 BSc (Hons) Special Degree in Statistics, 2013, University of Sri Jayewardenepura, Sri Lanka
 
-&#x1F393; Batch first and Professor R A Dayananda Gold Medalist, 2013
+🎓 Batch first and Professor R A Dayananda Gold Medalist, 2013
 
 ### Interests
 
 -   Computational statistics
 
--    Statistical machine learning
+-   Statistical machine learning
 
 -   Machine learning interpretability
 
