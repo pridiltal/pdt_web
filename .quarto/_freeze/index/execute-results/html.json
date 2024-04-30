@@ -1,0 +1,14 @@
+{
+  "hash": "8ede51d120d494fbf051e5465cba97b6",
+  "result": {
+    "markdown": "---\ntitle: \"PRIYANGA DILINI TALAGALA\"\nsubtitle: \"PhD, Monash University, Australia\"\nabout:\n  template: solana\n  image: profile.jpg\n  links:\n    - icon: twitter\n      #text: twitter\n      href: https://twitter.com/pridiltal\n    - icon: github\n      #text: Github\n      href: https://github.com/pridiltal\n    - icon: linkedin\n      href: \"https://www.linkedin.com/in/priyanga-dilini-talagala-47b269122/\"\n    - icon: google-scholar\n      text: Google Scholar\n      href: https://scholar.google.com.au/citations?user=r4PXCAsAAAAJ&hl=en\n    - icon: orcid\n      text: ORCID\n      href: \"http://orcid.org/0000-0003-2870-7449\"\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
