@@ -1,7 +1,10 @@
 ---
 title: "PRIYANGA DILINI TALAGALA"
 css: index.css
-subtitle: "PhD, Monash University, Australia"
+subtitle: |
+ PhD, Monash University, Australia\
+ \
+ Senior Lecturer, University of Moratuwa, Sri Lanka
 about:
   template: solana
   image: "images/profile2.jpg"
