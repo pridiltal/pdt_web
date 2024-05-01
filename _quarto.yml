@@ -3,22 +3,51 @@ project:
 
 website:
   title: "PRIYANGA DILINI TALAGALA"
+  
+  favicon: "/images/icon-32.png"
+  twitter-card:
+    image: "/images/title.png"
+  open-graph:
+    image: "/images/title.png"
+    
+    
   navbar:
     background: "#000000"  # Example color, replace with your desired color
     foreground: "#ffffff"  # Example color, replace with your desired color
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+    right:
+      - icon: twitter
+        href: https://twitter.com/pridiltal
+      - icon: github
+        href: https://github.com/pridiltal
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/priyanga-dilini-talagala-47b269122/"
+      - icon: google-scholar
+        text: Google Scholar
+        href: https://scholar.google.com.au/citations?user=r4PXCAsAAAAJ&hl=en
+      - icon: orcid
+        text: ORCID
+        href: "http://orcid.org/0000-0003-2870-7449"
+        
   page-footer:
-    center: 
-      - text: "About"
-        href: about.qmd
-     # - text: "License"
-      #  href: license.qmd
-    #  - text: "Trademark"
-     #   href: trademark.qmd
+    center:  &copy; Copyright 2017 - 2024 Priyanga Dilini Talagala. Powered by [Quarto](https://quarto.org/).
     background: "#000000"
+    
+    right:
+      - icon: twitter
+        href: https://twitter.com/pridiltal
+      - icon: github
+        href: https://github.com/pridiltal
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/priyanga-dilini-talagala-47b269122/"
+      - icon: google-scholar
+        text: Google Scholar
+        href: https://scholar.google.com.au/citations?user=r4PXCAsAAAAJ&hl=en
+      - icon: orcid
+        text: ORCID
+        href: "http://orcid.org/0000-0003-2870-7449"
 
 format:
   html:
