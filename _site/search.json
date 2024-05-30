@@ -1,5 +1,61 @@
 [
   {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Date: Aug 28, 2018 12:00 AM — 12:00 AM\nEvent: Joint International Society for Clinical Biostatistics and Australian Statistical Conference 2018, Melbourne, Australia\nLocation: Melbourne Convention and Exhibition Centre, Australia\nSlides\nI won EJP Pitman Young Statisticians Prize 2018, Merit Award for the outstanding talk presented by a Young Statistician at an Australian Statistical Conference\n\n\n\nDate: Jul 31, 2018 12:00 AM — 12:00 AM\nEvent: 2018 Joint Statistical Meetings - American Statistical Association, Vancouver, Canada\nLocation: Vancouver Convention Centre, Vancouver, British Columbia, Canada\nSldies\n\n\n\nDate: Jul 11, 2018 12:00 AM — 12:00 AM\nEvent: useR! 2018, Brisbane, Australia\nLocation: Brisbane Convention ad Exhibition Centre, Brisbane, Australia\nSlides\n\n\n\nDate: Jun 18, 2018 12:00 AM — 12:00 AM\nEvent: 38th International Symposium on Forecasting, Boulder, Colorado, USA\nLocation: University of Colorado (CU), Colorado, USA\nSlides , Paper"
+  },
+  {
+    "objectID": "talks.html#outlier-detection-in-non-stationary-data-streams",
+    "href": "talks.html#outlier-detection-in-non-stationary-data-streams",
+    "title": "Talks",
+    "section": "",
+    "text": "Date: Aug 28, 2018 12:00 AM — 12:00 AM\nEvent: Joint International Society for Clinical Biostatistics and Australian Statistical Conference 2018, Melbourne, Australia\nLocation: Melbourne Convention and Exhibition Centre, Australia\nSlides\nI won EJP Pitman Young Statisticians Prize 2018, Merit Award for the outstanding talk presented by a Young Statistician at an Australian Statistical Conference"
+  },
+  {
+    "objectID": "talks.html#outlier-detection-in-non-stationary-data-streams-1",
+    "href": "talks.html#outlier-detection-in-non-stationary-data-streams-1",
+    "title": "Talks",
+    "section": "",
+    "text": "Date: Jul 31, 2018 12:00 AM — 12:00 AM\nEvent: 2018 Joint Statistical Meetings - American Statistical Association, Vancouver, Canada\nLocation: Vancouver Convention Centre, Vancouver, British Columbia, Canada\nSldies"
+  },
+  {
+    "objectID": "talks.html#oddstream-and-stray-anomaly-detection-in-streaming-temporal-data-with-r",
+    "href": "talks.html#oddstream-and-stray-anomaly-detection-in-streaming-temporal-data-with-r",
+    "title": "Talks",
+    "section": "",
+    "text": "Date: Jul 11, 2018 12:00 AM — 12:00 AM\nEvent: useR! 2018, Brisbane, Australia\nLocation: Brisbane Convention ad Exhibition Centre, Brisbane, Australia\nSlides"
+  },
+  {
+    "objectID": "talks.html#anomaly-detection-in-nonstationary-streaming-temporal-data",
+    "href": "talks.html#anomaly-detection-in-nonstationary-streaming-temporal-data",
+    "title": "Talks",
+    "section": "",
+    "text": "Date: Jun 18, 2018 12:00 AM — 12:00 AM\nEvent: 38th International Symposium on Forecasting, Boulder, Colorado, USA\nLocation: University of Colorado (CU), Colorado, USA\nSlides , Paper"
+  },
+  {
+    "objectID": "talks.html#detecting-anomalous-series-in-streaming-time-series-data",
+    "href": "talks.html#detecting-anomalous-series-in-streaming-time-series-data",
+    "title": "Talks",
+    "section": "Detecting Anomalous Series in Streaming Time Series Data",
+    "text": "Detecting Anomalous Series in Streaming Time Series Data\nDate: Sep 26, 2017 12:00 AM — 12:00 AM\nEvent: Young Statisticians Conference 2017\nLocation: Tweed Events, Twin Towns 2 Wharf St, Tweed Heads NSW, Australia\nSlides"
+  },
+  {
+    "objectID": "talks.html#detection-of-anomalous-series-within-a-large-collection-of-streaming-time-series-data",
+    "href": "talks.html#detection-of-anomalous-series-within-a-large-collection-of-streaming-time-series-data",
+    "title": "Talks",
+    "section": "Detection of Anomalous Series Within a Large Collection of Streaming Time Series Data",
+    "text": "Detection of Anomalous Series Within a Large Collection of Streaming Time Series Data\nDate: Sep 19, 2017 12:00 AM — 12:00 AM\nEvent: Young Stats Showcase - September 19, 2017\nLocation: Evan Williams Theatre, Peter Hall Building, University of Melbourne, Melbourne, Australia\nSldies"
+  },
+  {
+    "objectID": "talks.html#anomaly-detection-in-streaming-time-series-data",
+    "href": "talks.html#anomaly-detection-in-streaming-time-series-data",
+    "title": "Talks",
+    "section": "Anomaly Detection in Streaming Time Series Data",
+    "text": "Anomaly Detection in Streaming Time Series Data\nDate: June 25-28, 2017\nEvent: 37th International Symposium on Forecasting, Cairns, Australia\nLocation: Cairns Convention Centre, Cairns, Australia\nSlides"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",

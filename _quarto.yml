@@ -17,6 +17,8 @@ website:
     left:
       - href: about.qmd
         text: About
+      - href: talks.qmd
+        text: Talks
     right:
       - icon: twitter
         href: https://twitter.com/pridiltal
