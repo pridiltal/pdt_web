@@ -4,35 +4,133 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Date: Aug 28, 2018 12:00 AM — 12:00 AM\nEvent: Joint International Society for Clinical Biostatistics and Australian Statistical Conference 2018, Melbourne, Australia\nLocation: Melbourne Convention and Exhibition Centre, Australia\nSlides\nI won EJP Pitman Young Statisticians Prize 2018, Merit Award for the outstanding talk presented by a Young Statistician at an Australian Statistical Conference\n\n\n\nDate: Jul 31, 2018 12:00 AM — 12:00 AM\nEvent: 2018 Joint Statistical Meetings - American Statistical Association, Vancouver, Canada\nLocation: Vancouver Convention Centre, Vancouver, British Columbia, Canada\nSldies\n\n\n\nDate: Jul 11, 2018 12:00 AM — 12:00 AM\nEvent: useR! 2018, Brisbane, Australia\nLocation: Brisbane Convention ad Exhibition Centre, Brisbane, Australia\nSlides\n\n\n\nDate: Jun 18, 2018 12:00 AM — 12:00 AM\nEvent: 38th International Symposium on Forecasting, Boulder, Colorado, USA\nLocation: University of Colorado (CU), Colorado, USA\nSlides , Paper"
+    "text": "Date: Mar 20, 2024 02:00 PM\nEvent: INTELLECTA 24, ICT Day, Devi Balika Vidyalaya, Colombo 8\nSlides"
+  },
+  {
+    "objectID": "talks.html#the-ai-revolution-historical-footprints-current-applications-and-future-landscapes",
+    "href": "talks.html#the-ai-revolution-historical-footprints-current-applications-and-future-landscapes",
+    "title": "Talks",
+    "section": "",
+    "text": "Date: Mar 20, 2024 02:00 PM\nEvent: INTELLECTA 24, ICT Day, Devi Balika Vidyalaya, Colombo 8\nSlides"
+  },
+  {
+    "objectID": "talks.html#beyond-the-abstract---a-guide-to-writing-conference-research-articles",
+    "href": "talks.html#beyond-the-abstract---a-guide-to-writing-conference-research-articles",
+    "title": "Talks",
+    "section": "Beyond the Abstract - A Guide to Writing Conference Research Articles",
+    "text": "Beyond the Abstract - A Guide to Writing Conference Research Articles\nDate: Aug 9, 2023 12:00 AM — 12:00 AM\nEvent: Information Technology Research Unit (ITRU) Faculty of Information Technology, University of Moratuwa, Pre-conference workshop\nSldies"
+  },
+  {
+    "objectID": "talks.html#forecasting-and-anomaly-detection-in-large-scale-time-series",
+    "href": "talks.html#forecasting-and-anomaly-detection-in-large-scale-time-series",
+    "title": "Talks",
+    "section": "Forecasting and Anomaly Detection in Large-Scale Time Series",
+    "text": "Forecasting and Anomaly Detection in Large-Scale Time Series\nDate: Jan 25, 2023 12:00 AM — 12:00 AM\nEvent: F4SG Learning Labs\nLocation: F4SG Learning Labs\nSlides"
+  },
+  {
+    "objectID": "talks.html#anomaly-detection-in-image-streams-with-explainable-ai",
+    "href": "talks.html#anomaly-detection-in-image-streams-with-explainable-ai",
+    "title": "Talks",
+    "section": "Anomaly Detection in Image Streams with Explainable AI",
+    "text": "Anomaly Detection in Image Streams with Explainable AI\nDate: May 18, 2022 12:00 AM — 12:00 AM\nEvent: OCTAVE Advanced Analytics Symposium\nLocation: Virtual Symposium\nSldies"
+  },
+  {
+    "objectID": "talks.html#detecting-technical-anomalies-in-water-quality-data-from-river-networks",
+    "href": "talks.html#detecting-technical-anomalies-in-water-quality-data-from-river-networks",
+    "title": "Talks",
+    "section": "Detecting Technical Anomalies in Water-Quality Data From River Networks",
+    "text": "Detecting Technical Anomalies in Water-Quality Data From River Networks\nDate: May 10, 2022 12:00 AM — 12:00 AM\nEvent: 2022 Joint Aquatic Sciences Meeting Statistical Association\nLocation: Grand Rapids, Michigan (Virtual Conference)\nSlides"
+  },
+  {
+    "objectID": "talks.html#technical-anomalies-in-water-quality-data-from-in-situ-sensors---what-why-and-how",
+    "href": "talks.html#technical-anomalies-in-water-quality-data-from-in-situ-sensors---what-why-and-how",
+    "title": "Talks",
+    "section": "Technical Anomalies in Water-Quality Data From In-Situ Sensors - What, Why, and How?",
+    "text": "Technical Anomalies in Water-Quality Data From In-Situ Sensors - What, Why, and How?\nDate: Nov 28, 2021 12:00 AM — 12:00 AM\nEvent: ARCLP Workshop: Revolutionising water quality monitoring in the information age\nSlides, Youtube"
+  },
+  {
+    "objectID": "talks.html#attention-towards-distance-education-tools-during-covid-19-pandemic---evidence-from-google-trends",
+    "href": "talks.html#attention-towards-distance-education-tools-during-covid-19-pandemic---evidence-from-google-trends",
+    "title": "Talks",
+    "section": "Attention Towards Distance Education Tools During COVID-19 Pandemic - Evidence from Google Trends",
+    "text": "Attention Towards Distance Education Tools During COVID-19 Pandemic - Evidence from Google Trends\nDate: Nov 8, 2021 12:00 AM — Nov 19, 2021 12:00 AM\nEvent: OWSD 6th General Assembly and International Conference\nLocation: Virtual Conference\nSlides"
+  },
+  {
+    "objectID": "talks.html#anomaly-detection-in-spatio-temporal-tensor-streams",
+    "href": "talks.html#anomaly-detection-in-spatio-temporal-tensor-streams",
+    "title": "Talks",
+    "section": "Anomaly Detection in Spatio-Temporal Tensor Streams",
+    "text": "Anomaly Detection in Spatio-Temporal Tensor Streams\nDate: Aug 6, 2021 12:00 AM — 12:00 AM\nEvent: 2021 Joint Statistical Meetings - American Statistical Association\nLocation: Virtual ISF Conference 2021\nSlides"
+  },
+  {
+    "objectID": "talks.html#tidy-time-series-anomaly-detection-for-load-forecasting",
+    "href": "talks.html#tidy-time-series-anomaly-detection-for-load-forecasting",
+    "title": "Talks",
+    "section": "Tidy Time Series Anomaly Detection for Load Forecasting",
+    "text": "Tidy Time Series Anomaly Detection for Load Forecasting\nDate: Jun 30, 2021 12:00 AM — 12:00 AM\nEvent: 41st International Symposium on Forecasting, Virtual Conference.\nLocation: Virtual ISF 2021 (Virtual Conference)\nSlides"
+  },
+  {
+    "objectID": "talks.html#plot-a-lot-with-ggplot2-to-find-plots",
+    "href": "talks.html#plot-a-lot-with-ggplot2-to-find-plots",
+    "title": "Talks",
+    "section": "Plot a lot with ggplot2 to find plots",
+    "text": "Plot a lot with ggplot2 to find plots\nDate: Jan 27, 2021 12:00 AM — 12:00 AM\nEvent: R-Ladies Meetup.\nLocation: R-Ladies Meetup, R-Ladies Meetup\nSlides"
+  },
+  {
+    "objectID": "talks.html#anomaly-detection-in-streaming-time-series-data",
+    "href": "talks.html#anomaly-detection-in-streaming-time-series-data",
+    "title": "Talks",
+    "section": "Anomaly Detection in Streaming Time Series Data",
+    "text": "Anomaly Detection in Streaming Time Series Data\nDate: Dec 4, 2020 12:00 AM — 12:00 AM\nEvent: StatScale Seminar\nLocation: StatScale Seminar, Lancaster University, UK\nSlides"
+  },
+  {
+    "objectID": "talks.html#tensor-based-anomaly-detection-in-multivariate-spatio-temporal-data",
+    "href": "talks.html#tensor-based-anomaly-detection-in-multivariate-spatio-temporal-data",
+    "title": "Talks",
+    "section": "Tensor-based anomaly detection in multivariate spatio-temporal data",
+    "text": "Tensor-based anomaly detection in multivariate spatio-temporal data\nDate: Oct 26, 2020 12:00 AM — Oct 28, 2020 12:00 AM\nEvent: 40th International Symposium on Forecasting, Rio de Janeiro, Brazil.\nLocation: Virtual ISF 2020, Rio de Janeiro, Brazil\nSlides"
+  },
+  {
+    "objectID": "talks.html#anomaly-detection-in-r",
+    "href": "talks.html#anomaly-detection-in-r",
+    "title": "Talks",
+    "section": "Anomaly Detection in R",
+    "text": "Anomaly Detection in R\nDate: Jul 9, 2019 12:00 AM — Jul 12, 2019 12:00 AM\nEvent: useR! 2019, Toulouse , France.\nLocation: The congress centre - Pierre Baudis, Toulouse, France\nSlides\n\n\nImpressive work by @pridiltal on anomaly detection in streaming data, demonstrated on several applications: https://t.co/1nVBgHFgKX #useR2019 pic.twitter.com/7eSv0ilf68\n\n— Tim Radtke (@TimRadtke) July 10, 2019\n\n\n\n\nVery interesting presentations on forecasting, outliers, smoothing, features and time series in tidy formats by @mitchoharawild, @iSvetunkov, @robjhyndman, @pridiltal and @thiyangt at the #useR2019 pic.twitter.com/OBAujqXEYg\n\n— Fotios Petropoulos (@fotpetr) July 12, 2019\n\n\n\n\nGreat #user2019 talk by @pridiltal ????????????“Anomaly detection in R”Very interesting application!I didn’t realise that those slides were not beamer till the end! (the tourrr animation should have given it away)???? https://t.co/qjmsCGhdee???? https://t.co/0kYkTWXotD pic.twitter.com/pbfJ9nO7KA\n\n— Emi Tanaka ???? (@statsgen) September 8, 2019"
+  },
+  {
+    "objectID": "talks.html#a-feature-based-framework-for-detecting-technical-outliers-in-water-quality-data-from-in-situ-sensors",
+    "href": "talks.html#a-feature-based-framework-for-detecting-technical-outliers-in-water-quality-data-from-in-situ-sensors",
+    "title": "Talks",
+    "section": "A feature-based framework for detecting technical outliers in water-quality data from in situ sensors",
+    "text": "A feature-based framework for detecting technical outliers in water-quality data from in situ sensors\nDate: Jun 18, 2019 12:00 AM — 12:00 AM\nEvent: 39th International Symposium on Forecasting, Thessaloniki, Greece.\nLocation: Makedonia Palace, Thessaloniki, Greece\nSlides"
   },
   {
     "objectID": "talks.html#outlier-detection-in-non-stationary-data-streams",
     "href": "talks.html#outlier-detection-in-non-stationary-data-streams",
     "title": "Talks",
-    "section": "",
-    "text": "Date: Aug 28, 2018 12:00 AM — 12:00 AM\nEvent: Joint International Society for Clinical Biostatistics and Australian Statistical Conference 2018, Melbourne, Australia\nLocation: Melbourne Convention and Exhibition Centre, Australia\nSlides\nI won EJP Pitman Young Statisticians Prize 2018, Merit Award for the outstanding talk presented by a Young Statistician at an Australian Statistical Conference"
+    "section": "Outlier Detection in Non-Stationary Data Streams",
+    "text": "Outlier Detection in Non-Stationary Data Streams\nDate: Aug 28, 2018 12:00 AM — 12:00 AM\nEvent: Joint International Society for Clinical Biostatistics and Australian Statistical Conference 2018, Melbourne, Australia\nLocation: Melbourne Convention and Exhibition Centre, Australia\nSlides\nI won EJP Pitman Young Statisticians Prize 2018, Merit Award for the outstanding talk presented by a Young Statistician at an Australian Statistical Conference"
   },
   {
     "objectID": "talks.html#outlier-detection-in-non-stationary-data-streams-1",
     "href": "talks.html#outlier-detection-in-non-stationary-data-streams-1",
     "title": "Talks",
-    "section": "",
-    "text": "Date: Jul 31, 2018 12:00 AM — 12:00 AM\nEvent: 2018 Joint Statistical Meetings - American Statistical Association, Vancouver, Canada\nLocation: Vancouver Convention Centre, Vancouver, British Columbia, Canada\nSldies"
+    "section": "Outlier Detection in Non-Stationary Data Streams",
+    "text": "Outlier Detection in Non-Stationary Data Streams\nDate: Jul 31, 2018 12:00 AM — 12:00 AM\nEvent: 2018 Joint Statistical Meetings - American Statistical Association, Vancouver, Canada\nLocation: Vancouver Convention Centre, Vancouver, British Columbia, Canada\nSldies"
   },
   {
     "objectID": "talks.html#oddstream-and-stray-anomaly-detection-in-streaming-temporal-data-with-r",
     "href": "talks.html#oddstream-and-stray-anomaly-detection-in-streaming-temporal-data-with-r",
     "title": "Talks",
-    "section": "",
-    "text": "Date: Jul 11, 2018 12:00 AM — 12:00 AM\nEvent: useR! 2018, Brisbane, Australia\nLocation: Brisbane Convention ad Exhibition Centre, Brisbane, Australia\nSlides"
+    "section": "oddstream and stray-Anomaly Detection in Streaming Temporal Data with R",
+    "text": "oddstream and stray-Anomaly Detection in Streaming Temporal Data with R\nDate: Jul 11, 2018 12:00 AM — 12:00 AM\nEvent: useR! 2018, Brisbane, Australia\nLocation: Brisbane Convention ad Exhibition Centre, Brisbane, Australia\nSlides"
   },
   {
     "objectID": "talks.html#anomaly-detection-in-nonstationary-streaming-temporal-data",
     "href": "talks.html#anomaly-detection-in-nonstationary-streaming-temporal-data",
     "title": "Talks",
-    "section": "",
-    "text": "Date: Jun 18, 2018 12:00 AM — 12:00 AM\nEvent: 38th International Symposium on Forecasting, Boulder, Colorado, USA\nLocation: University of Colorado (CU), Colorado, USA\nSlides , Paper"
+    "section": "Anomaly Detection in Nonstationary Streaming Temporal Data",
+    "text": "Anomaly Detection in Nonstationary Streaming Temporal Data\nDate: Jun 18, 2018 12:00 AM — 12:00 AM\nEvent: 38th International Symposium on Forecasting, Boulder, Colorado, USA\nLocation: University of Colorado (CU), Colorado, USA\nSlides , Paper"
   },
   {
     "objectID": "talks.html#detecting-anomalous-series-in-streaming-time-series-data",
@@ -49,8 +147,8 @@
     "text": "Detection of Anomalous Series Within a Large Collection of Streaming Time Series Data\nDate: Sep 19, 2017 12:00 AM — 12:00 AM\nEvent: Young Stats Showcase - September 19, 2017\nLocation: Evan Williams Theatre, Peter Hall Building, University of Melbourne, Melbourne, Australia\nSldies"
   },
   {
-    "objectID": "talks.html#anomaly-detection-in-streaming-time-series-data",
-    "href": "talks.html#anomaly-detection-in-streaming-time-series-data",
+    "objectID": "talks.html#anomaly-detection-in-streaming-time-series-data-1",
+    "href": "talks.html#anomaly-detection-in-streaming-time-series-data-1",
     "title": "Talks",
     "section": "Anomaly Detection in Streaming Time Series Data",
     "text": "Anomaly Detection in Streaming Time Series Data\nDate: June 25-28, 2017\nEvent: 37th International Symposium on Forecasting, Cairns, Australia\nLocation: Cairns Convention Centre, Cairns, Australia\nSlides"
