@@ -19,6 +19,10 @@ website:
         text: About
       - href: talks.qmd
         text: Talks
+      - href: https://scholar.google.com.au/citations?user=r4PXCAsAAAAJ&hl=en
+        text: Publications
+      - href: courses.qmd
+        text: Teaching
     right:
       - icon: twitter
         href: https://twitter.com/pridiltal

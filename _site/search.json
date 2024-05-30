@@ -154,10 +154,94 @@
     "text": "Anomaly Detection in Streaming Time Series Data\nDate: June 25-28, 2017\nEvent: 37th International Symposium on Forecasting, Cairns, Australia\nLocation: Cairns Convention Centre, Cairns, Australia\nSlides"
   },
   {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Senior Lecturer, Department of Computational Mathematics, University of Moratuwa, Sri Lanka.\nMedium of Instruction : English"
+  },
+  {
+    "objectID": "courses.html#section",
+    "href": "courses.html#section",
+    "title": "Teaching",
+    "section": "2022",
+    "text": "2022\nDepartment of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka\n\nMA 5124 Financial Time Series Analysis & Forecasting (M.Sc.in Financial Mathematics)\n\nDepartment of Management of Technology, Faculty of Business, University of Moratuwa, Sri Lanka\n\nTM 5140 Data-driven Decision Making (MBA / PG Diploma in Business Administration in Management of Technology and MBA / PG Diploma in Business Administration in Entrepreneurship)\n\nDepartment of Computational Mathematics, University of Moratuwa, Sri Lanka\n\nCM 1130 Elements of Statistics (Batch 20)\nCM 2130 Statistical Distributions and Estimation (Batch 19)"
+  },
+  {
+    "objectID": "courses.html#section-1",
+    "href": "courses.html#section-1",
+    "title": "Teaching",
+    "section": "2021",
+    "text": "2021\nDepartment of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka\n\nMA 5124 Financial Time Series Analysis & Forecasting (M.Sc.in Financial Mathematics)\nMA 5680 Time Series Analysis (M.Sc. in Operational Research)\n\nDepartment of Computational Mathematics, University of Moratuwa, Sri Lanka\n\nCM 1110 Fundamentals of Mathematics and Statistics (Batch 20)\nCM 2110 Calculus & Statistical Distributions (Batch 19)\nCM 3120 Computational Statistics"
+  },
+  {
+    "objectID": "courses.html#section-2",
+    "href": "courses.html#section-2",
+    "title": "Teaching",
+    "section": "2020",
+    "text": "2020\nDepartment of Computational Mathematics, University of Moratuwa, Sri Lanka\n\nCM 1110 Fundamentals of Mathematics and Statistics (Batch 19)\nCM 2110 Calculus & Statistical Distributions (Batch 18)"
+  },
+  {
+    "objectID": "courses.html#section-3",
+    "href": "courses.html#section-3",
+    "title": "Teaching",
+    "section": "2016 -2019",
+    "text": "2016 -2019\n(PhD, reading)\nMonash University, Australia (Teaching Associate)\n\nETC 5242 Statistical Thinking\nETC 2420 Statistical Thinking\nETC1000 Business and Economic Statistics"
+  },
+  {
+    "objectID": "courses.html#section-4",
+    "href": "courses.html#section-4",
+    "title": "Teaching",
+    "section": "2016",
+    "text": "2016\nDepartment of Computational Mathematics, University of Moratuwa, Sri Lanka\n\nCM 1130 Elements of Statistics (Batch 14)"
+  },
+  {
+    "objectID": "courses.html#section-5",
+    "href": "courses.html#section-5",
+    "title": "Teaching",
+    "section": "2015",
+    "text": "2015\nDepartment of Computational Mathematics, University of Moratuwa, Sri Lanka\n\nCM 3110 Computational Mathematics (Batch 12)\nCM 2110 Calculus & Statistical Distributions (Batch 13)\nCM 2130 Statistical Distributions and Estimation (Batch 12)"
+  },
+  {
+    "objectID": "courses.html#section-6",
+    "href": "courses.html#section-6",
+    "title": "Teaching",
+    "section": "2014",
+    "text": "2014\nDepartment of Computational Mathematics, University of Moratuwa, Sri Lanka\n\nCM 2110 Calculus & Statistical Distributions (Batch 12)\nCM 1110 Fundamentals of Mathematics & Statistics (Batch 13)\nCM 1130 Elements of Statistics (Batch 13)\n\nBachelor of Information Technology External Degree program, Faculty of Information Technology, University of Moratuwa, Sri Lanka\n\nITE 2702 Computational Mathematics"
+  },
+  {
+    "objectID": "courses.html#section-7",
+    "href": "courses.html#section-7",
+    "title": "Teaching",
+    "section": "2013",
+    "text": "2013\nDepartment of Computational Mathematics, University of Moratuwa, Sri Lanka\n\nCM 3110 Computational Mathematics (Batch 11)\n\nDepartment of Statistics and Computer Science, Faculty of Applied Sciences, University of Sri Jayewardenepura, Sri Lanka\n\nSTA 122 2.0 Data Analysis I\nSTA 223 1.5 Data Analysis II\nSTA 315 2.0 Programming and Data Analysis with R\n\nDepartment of Statistics and Computer Science, Faculty of Applied Sciences, University of Sri Jayewardenepura, Sri Lanka. (Temporary Instructor equivalent to Teaching Associate)\n\nSTA 112 3.0 Probability and Distribution Theory I\nSTA 111 2.0 Elements of Sampling and Descriptive Statistics"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a senior lecturer in the Department of Computational Mathematics, University of Moratuwa. I earned my PhD in statistics from Monash University, Australia, under the supervision of Professor Rob J. Hyndman and Professor Kate Smith-Miles \nI’m a fellow of OWSD, a UNESCO program, from 2021 to 2025. Additionally, I co-founded R-Ladies Colombo a local chapter of the R-Ladies Global Organization which aims to promote gender diversity in the R programming community.\nMy research revolves around Computational Statistics, Anomaly Detection, Time series analysis and forecasting and Statistical Machine Learning. I’m passionate about developing innovative methods and tools to analyze complex data. I am also strongly committed to developing open-source software tools to facilitate reproducible research. You can check out some of my projects here: Visit me on Twitter I post mostly about R, Python, statistics, data science, and science in nature. \nFrom 2021 to 2024, I served as an associate editor for The R Journal. I’ve also contributed as an Associate Investigator at the Australian Research Council’s (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS) from 2019 to 2021.\nThiyanga Talagala, PhD in Statistics, Monash University, Australia is my sister.\n\nEducation\n🎓 PhD in Statistics, 2019, Monash University, Australia\n🎓 BSc (Hons) Special Degree in Statistics, 2013, University of Sri Jayewardenepura, Sri Lanka\n🎓 Batch first and Professor R A Dayananda Gold Medalist, 2013\n\n\nInterests\n\nComputational statistics\nStatistical machine learning\nMachine learning interpretability\nAnomaly detection\nTime series analysis and forecasting\nStreaming data mining\nResponsible AI\nApplied statistics\nR programming"
+    "text": "👩‍🏫\nI am a senior lecturer in the Department of Computational Mathematics, University of Moratuwa. I earned my PhD in statistics from Monash University, Australia, under the supervision of Professor Rob J. Hyndman and Professor Kate Smith-Miles\nI’m a fellow of OWSD, a UNESCO program, from 2021 to 2025. Additionally, I co-founded R-Ladies Colombo a local chapter of the R-Ladies Global Organization which aims to promote gender diversity in the R programming community.\nMy research revolves around Computational Statistics, Anomaly Detection, Time series analysis and forecasting and Statistical Machine Learning. I’m passionate about developing innovative methods and tools to analyze complex data. I am also strongly committed to developing open-source software tools to facilitate reproducible research. You can check out some of my projects here: Visit me on Twitter I post mostly about R, Python, statistics, data science, and science in nature.\nFrom 2021 to 2024, I served as an associate editor for The R Journal. I’ve also contributed as an Associate Investigator at the Australian Research Council’s (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS) from 2019 to 2021.\nThiyanga Talagala, PhD in Statistics, Monash University, Australia is my sister."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n🎓 PhD in Statistics, 2019, Monash University, Australia\n🎓 BSc (Hons) Special Degree in Statistics, 2013, University of Sri Jayewardenepura, Sri Lanka\n🎓 Batch first and Professor R A Dayananda Gold Medalist, 2013"
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "🕵️ Research Interests",
+    "text": "🕵️ Research Interests\n\nComputational statistics\nStatistical machine learning\nMachine learning interpretability\nAnomaly detection\nTime series analysis and forecasting\nStreaming data mining\nResponsible AI\nApplied statistics\nR programming"
+  },
+  {
+    "objectID": "about.html#contact-information",
+    "href": "about.html#contact-information",
+    "title": "About",
+    "section": "📧 Contact Information",
+    "text": "📧 Contact Information\n\n\n\nDepartment of Computational Mathematics\nUniversity of Moratuwa\nBandaranayake Mawatha\nMoratuwa, 10400\nSri Lanka\n\nEmail: priyangad@uom.lk\n\n\n\nUoM Page"
   }
 ]
