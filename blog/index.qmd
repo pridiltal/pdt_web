@@ -1,5 +1,5 @@
 ---
-title: "This is my blog"
+title: "Welcome to PoDpost!"
 listing:
   contents: posts
   type: default
@@ -7,3 +7,5 @@ listing:
     - "date"
     - "title desc"
 ---
+
+Dive into trends and insights with Priyanag Dilini!
