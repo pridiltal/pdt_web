@@ -1,6 +1,6 @@
 ---
-title: "Beyond the Floodgates: Alert Thresholds for Effective Flood Warning Systems" 
+title: "Beyond the Floodgates: Rethinking Alert Thresholds for Effective Flood Warning Systems" 
 image: featured.jpg
 ---
 
-![Kalaniya River (Photo Credit Priyanga dilini Talagala, 5 June 2024)](featured.jpg)
+![The Kelaniya River with elevated water level (Photo Credit Priyanga Dilini Talagala, 5 June 2024)](featured.jpg)
