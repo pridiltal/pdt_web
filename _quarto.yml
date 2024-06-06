@@ -12,7 +12,7 @@ website:
     
     
   navbar:
-    background: "#000000"  # Example color, replace with your desired color
+    background: "#0e2f44"  # Example color, replace with your desired color
     foreground: "#ffffff"  # Example color, replace with your desired color
     left:
       - href: about.qmd
@@ -39,7 +39,7 @@ website:
         
   page-footer:
     center:  &copy; Copyright 2017 - 2024 Priyanga Dilini Talagala. Powered by [Quarto](https://quarto.org/).
-    background: "#000000"
+    background: "#0e2f44"
     
     right:
       - icon: twitter
