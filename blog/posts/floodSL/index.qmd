@@ -1,6 +1,384 @@
 ---
 title: "Beyond the Floodgates: Rethinking Alert Thresholds for Effective Flood Warning Systems" 
 image: featured.jpg
+execute:
+  echo: false
+  warning: false
+  fig.align: center
 ---
 
-![The Kelaniya River with elevated water level (Photo Credit Priyanga Dilini Talagala, 5 June 2024)](featured.jpg)
+![The Kelani River with elevated water level (Photo Credit Priyanga Dilini Talagala, 5 June 2024)](featured.jpg)
+
+In recent days, Sri Lanka has faced severe floods, causing widespread damage across multiple areas due to adverse weather conditions. Lives have been disrupted, and significant losses have occurred. While natural disasters can be unpredictable, effective early warning systems play a crucial role in mitigating their impact.
+
+Living in Kelaniya, I faced disruptions in my daily routine because of the sudden flood situation. Traffic jams, road closures, and other challenges led me to conduct a preliminary analysis to grasp the current situation better and assess its impact on the area.
+
+This preliminary analysis was conducted on data from the Kelani River Basin, encompassing four tributaries: Kelani Ganga, Gurugoda Oya, Seethawaka Ganga, and Kehelgamu Oya. The data used for analysis was sourced from Sri Lanka's Disaster Management Centre (DMC), comprising water level readings from six stations: N'Street, Hanwella, Glencourse, Kitulgala, Holombuwa, Deraniyagala, and Norwood, which monitor the aforementioned tributaries.
+
+```{r}
+library(tidyverse)
+library(here)
+library(readxl)
+library(fpp3)
+library(ceylon)
+library(sp)
+library(viridis)
+library(sf)
+library(patchwork)
+
+data_Kalaniya <- read_excel("Kalani_Ganga.xlsx")
+
+data <- data_Kalaniya |>
+  select(Time, `River Basin`, 
+         `Tributory/River`,  Station,
+         `Alert Level`,
+         `Minor Flood Level`,
+         `Major flood Level`,
+         `Water level before 30 minutes`,
+         `Water level after 30 Minutes`,
+          Remarks,
+         `21Hr RF in mm`) |>
+  rename( river_basin = `River Basin`,
+          river = `Tributory/River`,
+          alert = `Alert Level`,
+          minor_flood = `Minor Flood Level`,
+          major_flood = `Major flood Level`,
+         water_before = `Water level before 30 minutes`,
+         water_after = `Water level after 30 Minutes`,
+         RF = `21Hr RF in mm` )
+
+```
+
+```{r}
+#| column: screen
+#| out-width: 80%
+#| fig-cap: 
+#|   - "Figure: Locations of the six selected monitoring stations in the Kelani Ganga basin. The graphical representation was created using the R `celyon` package developed by  Thiyanga S. Talagala, available at [https://github.com/thiyangt/ceylon](https://github.com/thiyangt/ceylon)"
+# https://ggplot2-book.org/maps
+
+set.seed(1242)
+KLNStations <- tibble::tribble( 
+  ~Station,           ~lat,     ~lon,
+  "N'Street",    6.95972222, 79.87683333,  
+  "Hanwella" , 6.91093889, 80.08421111, 
+  "Glencourse",  6.97361111, 80.18416667, 
+  "Kitulgala",  6.99027778, 80.41388889, 
+  "Holombuwa",     7.18516667, 80.26480556, 
+  "Deraniyagala",    6.92311944, 80.33897222, 
+  "Norwood", 6.83564444, 80.61465278
+)
+
+
+points <- st_as_sf(KLNStations, coords = c("lon", "lat"), crs = 4326)
+
+data("rivers") 
+
+p <- ggplot(data = sf_sl_0) +   
+  geom_sf(fill="#edf8b1", color="#AAAAAA") + 
+  geom_sf(data = points,  colour = "red") +
+  geom_sf(data=rivers, colour="#253494") + 
+  labs(title =  "") +
+  ggrepel::geom_label_repel(
+    data = points,
+    aes(label = Station, geometry = geometry),
+    stat = "sf_coordinates",
+    min.segment.length = 0,
+   colour = "red",
+    segment.colour = "red",
+   max.overlaps = getOption("ggrepel.max.overlaps", default = 200),
+    label.size = 0.0004,
+   size=2,
+   #alpha = 0.7,
+   #force_pull = 480,
+  force = 70,
+   seed = 1
+  )
+
+print(p)
+```
+
+Upon closer examination of the data for the Kelani River Basin, it was evident that the existing thresholds for early flood warnings are set too high. This caused delays in alerting communities at risk, leading to floods happening "unexpectedly" and making the damage worse. As indicated by the following visual representations covering the seven stations, although the data suggests early warning signs through an increase in water level compared to the historical data, the existing alert thresholds are significantly higher than the observed data. Consequently, this discrepancy has resulted in a failure to issue timely alerts, despite the data clearly indicating an impending disaster.
+
+```{r}
+data_NStreet <- data |>
+  filter(Station == "N'Street") |>
+  select(Time, alert, minor_flood, 
+         major_flood, water_before,
+         water_after, Remarks
+         )
+alert <- unique(data_NStreet$alert)
+minor <- unique(data_NStreet$minor_flood)
+major <- unique(data_NStreet$major_flood)
+p1 <- data_NStreet |>
+  ggplot()+
+  geom_point(aes(x = Time , y = water_after, colour = Remarks)) +
+  labs(title = "N'Street Gauging Station", x =  "Time", y = "Water Level (ft)") +
+  geom_line(aes(x = Time , y = water_after),
+            colour = "blue") +
+  geom_hline(yintercept = c(alert,minor,major) )+
+  scale_color_brewer(palette="Dark2") +
+  annotate("text", 
+           x = data_NStreet$Time[120],
+           y=alert+0.2, label="Existing Alert Level") +
+  annotate("text", 
+           x = data_NStreet$Time[120],
+           y= minor+ 0.2, label="Existing Minor Flood Level") +
+  annotate("text", 
+           x = data_NStreet$Time[120],
+           y=major + .2, label="Existing Major Flood Level") +
+  theme(legend.position="none")
+
+
+
+## Hanwella
+data_Hanwella <- data |>
+  filter(Station == "Hanwella") |>
+  select(Time, alert, minor_flood, 
+         major_flood, water_before,
+         water_after, Remarks
+         )
+alert <- unique(data_Hanwella$alert)
+minor <- unique(data_Hanwella$minor_flood)
+major <- unique(data_Hanwella$major_flood)
+
+p2 <- data_Hanwella |>
+  ggplot()+
+  geom_point(aes(x = Time , y = water_after, colour = Remarks)) +
+  labs(title = "Hanwella Gauging Station", x =  "Time", y = "Water Level (m)") +
+  geom_line(aes(x = Time , y = water_after),
+            colour = "blue") +
+  geom_hline(yintercept = c(alert,minor,major) )+
+  scale_color_brewer(palette="Dark2") +
+  annotate("text", 
+           x = data_Hanwella$Time[120],
+           y=alert+0.2, label="Existing Alert Level") +
+  annotate("text", 
+           x = data_Hanwella$Time[120],
+           y= minor+ 0.2, label="Existing Minor Flood Level") +
+  annotate("text", 
+           x = data_Hanwella$Time[120],
+           y=major + .2, label="Existing Major Flood Level") +
+  theme(legend.position="none")
+
+
+## Glencourse
+data_Glencourse <- data |>
+  filter(Station == "Glencourse") |>
+  select(Time, alert, minor_flood, 
+         major_flood, water_before,
+         water_after, Remarks
+         )
+alert <- unique(data_Glencourse$alert)
+minor <- unique(data_Glencourse$minor_flood)
+major <- unique(data_Glencourse$major_flood)
+
+p3 <- data_Glencourse |>
+  ggplot()+
+  geom_point(aes(x = Time , y = water_after, colour = Remarks)) +
+  labs(title = "Glencourse Gauging Station", x =  "Time", y = "Water Level (m)") +
+  geom_line(aes(x = Time , y = water_after),
+            colour = "blue") +
+  geom_hline(yintercept = c(alert,minor,major) )+
+  scale_color_brewer(palette="Dark2") +
+  annotate("text", 
+           x = data_Glencourse$Time[120],
+           y=alert+0.2, label="Existing Alert Level") +
+  annotate("text", 
+           x = data_Glencourse$Time[120],
+           y= minor+ 0.2, label="Existing Minor Flood Level") +
+  annotate("text", 
+           x = data_Glencourse$Time[120],
+           y=major + .2, label="Existing Major Flood Level") +
+  theme(legend.position="none")
+
+## Holombuwa
+data_Holombuwa <- data |>
+  filter(Station == "Holombuwa") |>
+  select(Time, alert, minor_flood, 
+         major_flood, water_before,
+         water_after, Remarks
+         )
+alert <- unique(data_Holombuwa$alert)
+minor <- unique(data_Holombuwa$minor_flood)
+major <- unique(data_Holombuwa$major_flood)
+
+p4 <- data_Holombuwa |>
+  ggplot()+
+  geom_point(aes(x = Time , y = water_after, colour = Remarks)) +
+  labs(title = "Holombuwa Gauging Station", x =  "Time", y = "Water Level (m)") +
+  geom_line(aes(x = Time , y = water_after),
+            colour = "blue") +
+  geom_hline(yintercept = c(alert,minor,major) )+
+  scale_color_brewer(palette="Dark2") +
+  annotate("text", 
+           x = data_Holombuwa$Time[120],
+           y=alert+0.2, label="Existing Alert Level") +
+  annotate("text", 
+           x = data_Holombuwa$Time[120],
+           y= minor+ 0.2, label="Existing Minor Flood Level") +
+  annotate("text", 
+           x = data_Holombuwa$Time[120],
+           y=major + .2, label="Existing Major Flood Level") +
+  theme(legend.position="none")
+
+## Kitulgala
+data_Kitulgala <- data |>
+  filter(Station == "Kitulgala") |>
+  select(Time, alert, minor_flood, 
+         major_flood, water_before,
+         water_after, Remarks
+         )
+alert <- unique(data_Kitulgala$alert)
+minor <- unique(data_Kitulgala$minor_flood)
+major <- unique(data_Kitulgala$major_flood)
+
+p5 <- data_Kitulgala |>
+  ggplot()+
+  geom_point(aes(x = Time , y = water_after, colour = Remarks)) +
+  labs(title = "Kitulgala Gauging Station", x =  "Time", y = "Water Level (m)") +
+  geom_line(aes(x = Time , y = water_after),
+            colour = "blue") +
+  geom_hline(yintercept = c(alert,minor,major) )+
+  scale_color_brewer(palette="Dark2") +
+  annotate("text", 
+           x = data_Kitulgala$Time[120],
+           y=alert+0.2, label="Existing Alert Level") +
+  annotate("text", 
+           x = data_Kitulgala$Time[120],
+           y= minor+ 0.2, label="Existing Minor Flood Level") +
+  annotate("text", 
+           x = data_Kitulgala$Time[120],
+           y=major + .2, label="Existing Major Flood Level") +
+  theme(legend.position="none")
+
+## Deraniyagala
+data_Deraniyagala <- data |>
+  filter(Station == "Deraniyagala") |>
+  select(Time, alert, minor_flood, 
+         major_flood, water_before,
+         water_after, Remarks
+         )
+alert <- unique(data_Deraniyagala$alert)
+minor <- unique(data_Deraniyagala$minor_flood)
+major <- unique(data_Deraniyagala$major_flood)
+
+p6 <- data_Deraniyagala |>
+  ggplot()+
+  geom_point(aes(x = Time , y = water_after, colour = Remarks)) +
+  labs(title = "Deraniyagala Gauging Station", x =  "Time", y = "Water Level (m)") +
+  geom_line(aes(x = Time , y = water_after),
+            colour = "blue") +
+  geom_hline(yintercept = c(alert,minor,major) )+
+  scale_color_brewer(palette="Dark2") +
+  annotate("text", 
+           x = data_Deraniyagala$Time[120],
+           y=alert+0.2, label="Existing Alert Level") +
+  annotate("text", 
+           x = data_Deraniyagala$Time[120],
+           y= minor+ 0.2, label="Existing Minor Flood Level") +
+  annotate("text", 
+           x = data_Deraniyagala$Time[120],
+           y=major + .2, label="Existing Major Flood Level") +
+  theme(legend.position="none")
+
+## Norwood
+data_Norwood <- data |>
+  filter(Station == "Norwood") |>
+  select(Time, alert, minor_flood, 
+         major_flood, water_before,
+         water_after, Remarks
+         )
+alert <- unique(data_Norwood$alert)
+minor <- unique(data_Norwood$minor_flood)
+major <- unique(data_Norwood$major_flood)
+
+p7 <- data_Norwood |>
+  ggplot()+
+  geom_point(aes(x = Time , y = water_after, colour = Remarks)) +
+  labs(title = "Norwood Gauging Station", x =  "Time", y = "Water Level (m)") +
+  geom_line(aes(x = Time , y = water_after),
+            colour = "blue") +
+  geom_hline(yintercept = c(alert,minor,major) )+
+  scale_color_brewer(palette="Dark2") +
+  annotate("text", 
+           x = data_Norwood$Time[120],
+           y=alert+0.2, label="Existing Alert Level") +
+  annotate("text", 
+           x = data_Norwood$Time[120],
+           y= minor+ 0.2, label="Existing Minor Flood Level") +
+  annotate("text", 
+           x = data_Norwood$Time[120],
+           y=major + .2, label="Existing Major Flood Level") +
+  theme(legend.position="none")
+
+```
+
+```{r}
+#| fig-align: center
+#| out-width: 70%
+#| fig-cap: 
+#|   - "Figure: Water levels at the N'Street Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+
+print(p1)
+
+```
+
+```{r}
+#| fig-align: center
+#| out-width: 70%
+#| fig-cap: 
+#|   - "Figure: Water levels at the Hanwella Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+
+print(p2)
+```
+
+```{r}
+#| fig-align: center
+#| out-width: 70%
+#| fig-cap: 
+#|   - "Figure: Water levels at the Glencourse Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+
+print(p3)
+```
+
+```{r}
+#| fig-align: center
+#| out-width: 70%
+#| fig-cap: 
+#|   - "Figure: Water levels at the Holombuwa Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+
+print(p4)
+```
+
+```{r}
+#| fig-align: center
+#| out-width: 70%
+#| fig-cap: 
+#|   - "Figure: Water levels at the Kitulgala Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+
+print(p5)
+```
+
+```{r}
+#| fig-align: center
+#| out-width: 70%
+#| fig-cap:  
+#|   - "Figure: Water levels at the Deraniyagala Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+
+print(p6)
+```
+
+```{r}
+#| fig-align: center
+#| out-width: 70%
+#| fig-cap:  
+#|   - "Figure: Water levels at the Norwood Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+
+print(p7)
+```
+
+To address this issue, it is important to revise these existing thresholds promptly. By lowering them from their current levels, we will be able to establish a more precise and proactive warning system. This will empower authorities to notify vulnerable populations earlier, giving them ample time to prepare and evacuate if necessary.
+
+However, while the need to lower thresholds is evident, it's vital to strike a balance to prevent the risk of false positives. Overly reducing the thresholds could result in unnecessary warnings, leading people to disregard alerts when genuine danger arises. Therefore, finding the optimal balance is essential to ensuring the effectiveness of the warning system while avoiding unnecessary false alarms.
+
+Comprehensive analyses of historical flood patterns, rainfall data, and the topographical characteristics of the affected regions should be taken into consideration when revising the warning threshold. Collaborative efforts between meteorological agencies, disaster management authorities, data scientists, and relevant stakeholders are essential in establishing revised thresholds that reflect the current realities of climate change and its impact on weather patterns. Further, the existing warning thresholds may no longer be sufficient due to increased construction activities. Empowering local communities with the knowledge and resources to respond effectively to flood warnings can significantly reduce the loss of life and property during disasters. The media has a crucial role to play by making the general public aware of the early flood warning issue by disaster management and other responsible authorities promptly.
