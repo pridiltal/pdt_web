@@ -20,7 +20,42 @@ about:
 
 # Courses
 
+## 2024 
+
+Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
+
+-   MA 5680 Time Series Analysis (M.Sc. in Operational Research)
+
+Department of Management of Technology, Faculty of Business, University of Moratuwa, Sri Lanka
+
+-   TM 5140 Data-driven Decision Making (MBA / PG Diploma in Business Administration in Management of Technology and MBA / PG Diploma in Business Administration in Entrepreneurship)
+
+Department of Computational Mathematics, University of Moratuwa, Sri Lanka
+
+-   CM 1131 Elements of Probability and Statistics (Batch 22)
+-   CM 1410 Probability and Statistics (Batch 22)
+
 ## 2023
+
+Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
+
+-   MA 5124 Financial Time Series Analysis & Forecasting (M.Sc.in Financial Mathematics)
+-   MA 5680 Time Series Analysis (M.Sc. in Operational Research)
+
+Department of Management of Technology, Faculty of Business, University of Moratuwa, Sri Lanka
+
+-   TM 5140 Data-driven Decision Making (MBA / PG Diploma in Business Administration in Management of Technology and MBA / PG Diploma in Business Administration in Entrepreneurship)
+
+Department of Computational Mathematics, University of Moratuwa, Sri Lanka
+
+-   CM 1131 Elements of Probability and Statistics (Batch 21)
+-   CM 1410 Probability and Statistics (Batch 21)
+-   CM 2110 Calculus & Statistical Distributions
+-   CM 3120 Computational Statistics (Batch 19)
+
+Department of Transport Management & Logistics Engineering, University of Moratuwa, Sri Lanka
+
+-   LT2010 - Data Science for Transport and Logistics Systems
 
 ## 2022
 

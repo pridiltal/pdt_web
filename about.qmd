@@ -15,7 +15,7 @@ My research revolves around Computational Statistics, Anomaly Detection, Time se
 
 From 2021 to 2024, I served as an associate editor for [The R Journal](https://journal.r-project.org/). I've also contributed as an Associate Investigator at the [Australian Research Council's (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS)](https://acems.org.au/our-people/priyanga-dilini-talagala) from 2019 to 2021.
 
-[Thiyanga Talagala, PhD in Statistics, Monash University, Australia](https://thiyanga.netlify.com/) is my sister.
+[Thiyanga Talagala,PhD in Statistics, Monash University, Australia](https://thiyanga.netlify.app/) is my sister.
 
 ## 🎓 Education
 
