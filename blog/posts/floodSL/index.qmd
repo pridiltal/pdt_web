@@ -9,7 +9,7 @@ execute:
 
 ![The Kelani River with elevated water level (Photo Credit Priyanga Dilini Talagala, 5 June 2024)](featured.jpg)
 
-In recent days, Sri Lanka has faced severe floods, causing widespread damage across multiple areas due to adverse weather conditions. Lives have been disrupted, and significant losses have occurred. While natural disasters can be unpredictable, effective early warning systems play a crucial role in mitigating their impact.
+In recent days, Sri Lanka has experienced severe floods, worsened by the arrival of the southwestern monsoon season. This seasonal weather pattern, which occurs between May and September, brings heavy rainfall to the southwest regions of the country. Consequently, adverse weather conditions have caused widespread damage across multiple areas, disrupting lives and resulting in significant losses. While natural disasters can be unpredictable, effective early warning systems play a crucial role in mitigating their impact
 
 Living in Kelaniya, I faced disruptions in my daily routine because of the sudden flood situation. Traffic jams, road closures, and other challenges led me to conduct a preliminary analysis to grasp the current situation better and assess its impact on the area.
 
@@ -25,6 +25,7 @@ library(sp)
 library(viridis)
 library(sf)
 library(patchwork)
+library(ggforce)
 
 data_Kalaniya <- read_excel("Kalani_Ganga.xlsx")
 
@@ -100,12 +101,20 @@ print(p)
 Upon closer examination of the data for the Kelani River Basin, it was evident that the existing thresholds for early flood warnings are set too high. This caused delays in alerting communities at risk, leading to floods happening "unexpectedly" and making the damage worse. As indicated by the following visual representations covering the seven stations, although the data suggests early warning signs through an increase in water level compared to the historical data, the existing alert thresholds are significantly higher than the observed data. Consequently, this discrepancy has resulted in a failure to issue timely alerts, despite the data clearly indicating an impending disaster.
 
 ```{r}
+
+cols <- c("Minor Flood" = "#e7298a", "Normal" = "#7570b3",  "Alert" = "#e6ab02")
+
+
 data_NStreet <- data |>
   filter(Station == "N'Street") |>
   select(Time, alert, minor_flood, 
          major_flood, water_before,
          water_after, Remarks
          )
+
+# Convert Time variable to POSIXct format
+#data_NStreet$Time <- as.POSIXct(data_NStreet$Time)
+
 alert <- unique(data_NStreet$alert)
 minor <- unique(data_NStreet$minor_flood)
 major <- unique(data_NStreet$major_flood)
@@ -116,18 +125,22 @@ p1 <- data_NStreet |>
   geom_line(aes(x = Time , y = water_after),
             colour = "blue") +
   geom_hline(yintercept = c(alert,minor,major) )+
-  scale_color_brewer(palette="Dark2") +
+  scale_colour_manual(values = cols) +
   annotate("text", 
            x = data_NStreet$Time[120],
-           y=alert+0.2, label="Existing Alert Level") +
+           y=alert+0.6, label="Existing Alert Level") +
   annotate("text", 
            x = data_NStreet$Time[120],
-           y= minor+ 0.2, label="Existing Minor Flood Level") +
+           y= minor+ 0.6, label="Existing Minor Flood Level") +
   annotate("text", 
            x = data_NStreet$Time[120],
-           y=major + .2, label="Existing Major Flood Level") +
-  theme(legend.position="none")
-
+           y=major + .6, label="Existing Major Flood Level") +
+  theme(legend.position="none") +
+  facet_zoom(x = Time >= data_NStreet$Time[115])+
+  annotate("text", x=data_NStreet$Time[100], y=6.5, label="South-west Monsoon", colour = "red", fontface =2)+
+   theme_bw() +
+    theme(legend.position="none") 
+  
 
 
 ## Hanwella
@@ -148,17 +161,21 @@ p2 <- data_Hanwella |>
   geom_line(aes(x = Time , y = water_after),
             colour = "blue") +
   geom_hline(yintercept = c(alert,minor,major) )+
-  scale_color_brewer(palette="Dark2") +
+  scale_colour_manual(values = cols) +
   annotate("text", 
            x = data_Hanwella$Time[120],
-           y=alert+0.2, label="Existing Alert Level") +
+           y=alert+0.7, label="Existing Alert Level") +
   annotate("text", 
            x = data_Hanwella$Time[120],
-           y= minor+ 0.2, label="Existing Minor Flood Level") +
+           y= minor+ 0.7, label="Existing Minor Flood Level") +
   annotate("text", 
            x = data_Hanwella$Time[120],
-           y=major + .2, label="Existing Major Flood Level") +
-  theme(legend.position="none")
+           y=major + .7, label="Existing Major Flood Level") +
+  theme(legend.position="none") +
+  facet_zoom(x = Time >= data_NStreet$Time[115])+
+  annotate("text", x=data_NStreet$Time[100], y=9.5, label="South-west Monsoon", colour = "red", fontface =2)+
+   theme_bw() +
+    theme(legend.position="none") 
 
 
 ## Glencourse
@@ -179,17 +196,21 @@ p3 <- data_Glencourse |>
   geom_line(aes(x = Time , y = water_after),
             colour = "blue") +
   geom_hline(yintercept = c(alert,minor,major) )+
-  scale_color_brewer(palette="Dark2") +
+  scale_colour_manual(values = cols) +
   annotate("text", 
            x = data_Glencourse$Time[120],
-           y=alert+0.2, label="Existing Alert Level") +
+           y=alert+0.7, label="Existing Alert Level") +
   annotate("text", 
            x = data_Glencourse$Time[120],
-           y= minor+ 0.2, label="Existing Minor Flood Level") +
+           y= minor+ 0.7, label="Existing Minor Flood Level") +
   annotate("text", 
            x = data_Glencourse$Time[120],
-           y=major + .2, label="Existing Major Flood Level") +
-  theme(legend.position="none")
+           y=major + .7, label="Existing Major Flood Level") +
+  theme(legend.position="none") +
+    facet_zoom(x = Time >= data_NStreet$Time[115])+
+  annotate("text", x=data_NStreet$Time[100], y=17.5, label="South-west Monsoon", colour = "red", fontface =2)+
+   theme_bw() +
+    theme(legend.position="none") 
 
 ## Holombuwa
 data_Holombuwa <- data |>
@@ -209,17 +230,21 @@ p4 <- data_Holombuwa |>
   geom_line(aes(x = Time , y = water_after),
             colour = "blue") +
   geom_hline(yintercept = c(alert,minor,major) )+
-  scale_color_brewer(palette="Dark2") +
+  scale_colour_manual(values = cols) +
   annotate("text", 
            x = data_Holombuwa$Time[120],
-           y=alert+0.2, label="Existing Alert Level") +
+           y=alert, label="Existing Alert Level") +
   annotate("text", 
            x = data_Holombuwa$Time[120],
-           y= minor+ 0.2, label="Existing Minor Flood Level") +
+           y= minor, label="Existing Minor Flood Level") +
   annotate("text", 
            x = data_Holombuwa$Time[120],
-           y=major + .2, label="Existing Major Flood Level") +
-  theme(legend.position="none")
+           y=major , label="Existing Major Flood Level") +
+  theme(legend.position="none") +
+    facet_zoom(x = Time >= data_NStreet$Time[115])+
+  annotate("text", x=data_NStreet$Time[100], y=5.5, label="South-west Monsoon", colour = "red", fontface =2)+
+   theme_bw() +
+    theme(legend.position="none") 
 
 ## Kitulgala
 data_Kitulgala <- data |>
@@ -239,17 +264,21 @@ p5 <- data_Kitulgala |>
   geom_line(aes(x = Time , y = water_after),
             colour = "blue") +
   geom_hline(yintercept = c(alert,minor,major) )+
-  scale_color_brewer(palette="Dark2") +
+  scale_colour_manual(values = cols) +
   annotate("text", 
            x = data_Kitulgala$Time[120],
-           y=alert+0.2, label="Existing Alert Level") +
+           y=alert+0.6, label="Existing Alert Level") +
   annotate("text", 
            x = data_Kitulgala$Time[120],
-           y= minor+ 0.2, label="Existing Minor Flood Level") +
+           y= minor+ 0.6, label="Existing Minor Flood Level") +
   annotate("text", 
            x = data_Kitulgala$Time[120],
-           y=major + .2, label="Existing Major Flood Level") +
-  theme(legend.position="none")
+           y=major + .6, label="Existing Major Flood Level") +
+  theme(legend.position="none") +
+    facet_zoom(x = Time >= data_NStreet$Time[115])+
+  annotate("text", x=data_NStreet$Time[100], y=5.5, label="South-west Monsoon", colour = "red", fontface =2)+
+   theme_bw() +
+    theme(legend.position="none") 
 
 ## Deraniyagala
 data_Deraniyagala <- data |>
@@ -269,17 +298,21 @@ p6 <- data_Deraniyagala |>
   geom_line(aes(x = Time , y = water_after),
             colour = "blue") +
   geom_hline(yintercept = c(alert,minor,major) )+
-  scale_color_brewer(palette="Dark2") +
+  scale_colour_manual(values = cols) +
   annotate("text", 
            x = data_Deraniyagala$Time[120],
-           y=alert+0.2, label="Existing Alert Level") +
+           y=alert+0.6, label="Existing Alert Level") +
   annotate("text", 
            x = data_Deraniyagala$Time[120],
-           y= minor+ 0.2, label="Existing Minor Flood Level") +
+           y= minor+ 0.6, label="Existing Minor Flood Level") +
   annotate("text", 
            x = data_Deraniyagala$Time[120],
-           y=major + .2, label="Existing Major Flood Level") +
-  theme(legend.position="none")
+           y=major + .6, label="Existing Major Flood Level") +
+  theme(legend.position="none") +
+    facet_zoom(x = Time >= data_NStreet$Time[115])+
+  annotate("text", x=data_NStreet$Time[100], y=5.5, label="South-west Monsoon", colour = "red", fontface =2)+
+   theme_bw() +
+    theme(legend.position="none") 
 
 ## Norwood
 data_Norwood <- data |>
@@ -299,17 +332,21 @@ p7 <- data_Norwood |>
   geom_line(aes(x = Time , y = water_after),
             colour = "blue") +
   geom_hline(yintercept = c(alert,minor,major) )+
-  scale_color_brewer(palette="Dark2") +
+  scale_colour_manual(values = cols) +
   annotate("text", 
            x = data_Norwood$Time[120],
-           y=alert+0.2, label="Existing Alert Level") +
+           y=alert+0.6, label="Existing Alert Level") +
   annotate("text", 
            x = data_Norwood$Time[120],
-           y= minor+ 0.2, label="Existing Minor Flood Level") +
+           y= minor+ 0.6, label="Existing Minor Flood Level") +
   annotate("text", 
            x = data_Norwood$Time[120],
-           y=major + .2, label="Existing Major Flood Level") +
-  theme(legend.position="none")
+           y=major + .6, label="Existing Major Flood Level") +
+  theme(legend.position="none") +
+    facet_zoom(x = Time >= data_NStreet$Time[115])+
+  annotate("text", x=data_NStreet$Time[100], y=3.5, label="South-west Monsoon", colour = "red", fontface =2)+
+   theme_bw() +
+    theme(legend.position="none") 
 
 ```
 
@@ -382,3 +419,5 @@ To address this issue, it is important to revise these existing thresholds promp
 However, while the need to lower thresholds is evident, it's vital to strike a balance to prevent the risk of false positives. Overly reducing the thresholds could result in unnecessary warnings, leading people to disregard alerts when genuine danger arises. Therefore, finding the optimal balance is essential to ensuring the effectiveness of the warning system while avoiding unnecessary false alarms.
 
 Comprehensive analyses of historical flood patterns, rainfall data, and the topographical characteristics of the affected regions should be taken into consideration when revising the warning threshold. Collaborative efforts between meteorological agencies, disaster management authorities, data scientists, and relevant stakeholders are essential in establishing revised thresholds that reflect the current realities of climate change and its impact on weather patterns. Further, the existing warning thresholds may no longer be sufficient due to increased construction activities. Empowering local communities with the knowledge and resources to respond effectively to flood warnings can significantly reduce the loss of life and property during disasters. The media has a crucial role to play by making the general public aware of the early flood warning issue by disaster management and other responsible authorities promptly.
+
+With the launch of our latest research initiative focused on broadening our coverage, we are committed to improving our understanding and management of flood risks in Sri Lanka by broadening our analytical scope and putting cutting-edge approaches into practice. Our shared goal is to build a community that is better prepared and resilient.
