@@ -7,8 +7,6 @@ about:
   image-shape: round
 ---
 
-👩‍🏫
-
 I am a senior lecturer in the [Department of Computational Mathematics, University of Moratuwa](https://www.mrt.ac.lk/staff/Talagala.PD.php). I earned my PhD in statistics from Monash University, Australia, under the supervision of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home) 
 
 I'm a fellow of OWSD, a UNESCO program, from 2021 to 2025. Additionally, I co-founded [R-Ladies Colombo](https://rladiescolombo.netlify.com/) a local chapter of the [R-Ladies Global Organization](https://www.rladies.org) which aims to promote gender diversity in the R programming community.
