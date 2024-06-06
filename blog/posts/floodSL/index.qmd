@@ -54,7 +54,7 @@ data <- data_Kalaniya |>
 #| column: screen
 #| out-width: 80%
 #| fig-cap: 
-#|   - "Figure: Locations of the six selected monitoring stations in the Kelani Ganga basin. The graphical representation was created using the R `celyon` package developed by  Thiyanga S. Talagala, available at [https://github.com/thiyangt/ceylon](https://github.com/thiyangt/ceylon)"
+#|   - "Figure 1: Locations of the six selected monitoring stations in the Kelani Ganga basin. The graphical representation was created using the R `celyon` package developed by  Thiyanga S. Talagala, available at [https://github.com/thiyangt/ceylon](https://github.com/thiyangt/ceylon)"
 # https://ggplot2-book.org/maps
 
 set.seed(1242)
@@ -354,7 +354,7 @@ p7 <- data_Norwood |>
 #| fig-align: center
 #| out-width: 70%
 #| fig-cap: 
-#|   - "Figure: Water levels at the N'Street Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+#|   - "Figure 2: Water levels at the N'Street Gauging Station and the existing  alert levels for minor flood and major flood conditions"
 
 print(p1)
 
@@ -364,7 +364,7 @@ print(p1)
 #| fig-align: center
 #| out-width: 70%
 #| fig-cap: 
-#|   - "Figure: Water levels at the Hanwella Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+#|   - "Figure 3: Water levels at the Hanwella Gauging Station and the existing  alert levels for minor flood and major flood conditions"
 
 print(p2)
 ```
@@ -373,7 +373,7 @@ print(p2)
 #| fig-align: center
 #| out-width: 70%
 #| fig-cap: 
-#|   - "Figure: Water levels at the Glencourse Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+#|   - "Figure 4: Water levels at the Glencourse Gauging Station and the existing  alert levels for minor flood and major flood conditions"
 
 print(p3)
 ```
@@ -382,7 +382,7 @@ print(p3)
 #| fig-align: center
 #| out-width: 70%
 #| fig-cap: 
-#|   - "Figure: Water levels at the Holombuwa Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+#|   - "Figure 5: Water levels at the Holombuwa Gauging Station and the existing  alert levels for minor flood and major flood conditions"
 
 print(p4)
 ```
@@ -391,7 +391,7 @@ print(p4)
 #| fig-align: center
 #| out-width: 70%
 #| fig-cap: 
-#|   - "Figure: Water levels at the Kitulgala Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+#|   - "Figure 6: Water levels at the Kitulgala Gauging Station and the existing  alert levels for minor flood and major flood conditions"
 
 print(p5)
 ```
@@ -400,7 +400,7 @@ print(p5)
 #| fig-align: center
 #| out-width: 70%
 #| fig-cap:  
-#|   - "Figure: Water levels at the Deraniyagala Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+#|   - "Figure 7: Water levels at the Deraniyagala Gauging Station and the existing  alert levels for minor flood and major flood conditions"
 
 print(p6)
 ```
@@ -409,7 +409,7 @@ print(p6)
 #| fig-align: center
 #| out-width: 70%
 #| fig-cap:  
-#|   - "Figure: Water levels at the Norwood Gauging Station and the existing  alert levels for minor flood and major flood conditions"
+#|   - "Figure 8: Water levels at the Norwood Gauging Station and the existing  alert levels for minor flood and major flood conditions"
 
 print(p7)
 ```
