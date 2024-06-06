@@ -23,6 +23,8 @@ website:
         text: Publications
       - href: courses.qmd
         text: Teaching
+      - href: blog/index.qmd
+        text: Blog
     right:
       - icon: twitter
         href: https://twitter.com/pridiltal

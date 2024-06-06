@@ -1,0 +1,8 @@
+---
+title: My first blog post.
+image: featured.jpg
+---
+
+WIP
+
+![!Image](featured.jpg)

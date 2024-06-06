@@ -10,5 +10,20 @@
   },
   "courses.qmd": {
     "courses.html": "cb78073d"
+  },
+  "galary.qmd": {
+    "galary.html": "362e0441"
+  },
+  "blog/index.qmd": {
+    "index.html": "302aa2c8"
+  },
+  "blog/post1.qmd": {
+    "post1.html": "fbfec0e4"
+  },
+  "blog/post2.qmd": {
+    "post2.html": "1cdf8565"
+  },
+  "blog/posts/test-post/index.qmd": {
+    "index.html": "b760a1c6"
   }
 }
