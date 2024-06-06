@@ -77,7 +77,7 @@ p <- ggplot(data = sf_sl_0) +
   geom_sf(fill="#edf8b1", color="#AAAAAA") + 
   geom_sf(data = points,  colour = "red") +
   geom_sf(data=rivers, colour="#253494") + 
-  labs(title =  "") +
+  labs(title =  "", x = "", y= "") +
   ggrepel::geom_label_repel(
     data = points,
     aes(label = Station, geometry = geometry),
