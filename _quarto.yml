@@ -25,6 +25,8 @@ website:
         text: Teaching
       - href: blog/index.qmd
         text: Blog
+      - href: outreach.qmd
+        text: Outreach
     right:
       - icon: github
         href: https://github.com/pridiltal

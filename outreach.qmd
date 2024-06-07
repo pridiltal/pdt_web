@@ -1,0 +1,19 @@
+---
+#title: "Outreach"
+about:
+  template: solana
+---
+
+## Organizations
+
+#### [**R-Ladies Colombo**](https://rladiescolombo.netlify.app/)
+
+## Workshop Websites
+
+#### [**Data Analysis with R Programming Language**](https://r4fun.netlify.app/)
+
+#### [**Reproducible Research with R Markdown**](https://hellormd.netlify.app/2022/10/welcome-to-the-research-lounge-reproducible-research-with-r-markdown/)
+
+#### [**Data Visualisation with R and Python**](https://pythonandr.netlify.app/about/)
+
+#### [**Data Visualization Camp - UOM Research Week 2023**](https://datavizcamp.netlify.app/)
