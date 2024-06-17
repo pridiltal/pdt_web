@@ -6,6 +6,22 @@ about:
 
 # 2024
 
+## **Exploring Dynamics and Trends in Distance Education: Insights from Global Web Search Queries in the Post-Pandemic Era**
+
+**Date**: July 05, 2024 09:00 AM
+
+Event: [8th International Conference on Education and Distance Learning, Paris, France](https://carmaconf.org/)
+
+[Slides](https://pridiltal.github.io/ICEDL2024/index.pdf)
+
+## **From Crisis to Opportunity: A Google Trends Analysis of Global Interest in Distance Education Tools During and Post the COVID-19 Pandemic**
+
+**Date**: June 28, 2024 09:00 AM
+
+Event: [6th International Conference on Advanced Research Methods and Analytics, Valencia, Spain](https://carmaconf.org/)
+
+[Slides](https://pridiltal.github.io/CARMA2024/index.pdf)
+
 ## **The AI Revolution: Historical Footprints Current Applications and Future Landscapes**
 
 **Date**: Mar 20, 2024 02:00 PM
