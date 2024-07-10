@@ -6,6 +6,14 @@ about:
 
 # 2024
 
+## **Exploring Class Overlap in Classification Challenges: Introducing the R Package** `clap`
+
+**Date:** July 10, 2024 1.50 PM
+
+Event: [useR! 2024, Salzburg, Austria](https://events.linuxfoundation.org/user/)
+
+[Slides](https://pridiltal.github.io/useR2024-talk/#/)
+
 ## **A Backcasting Approach for Anomaly Detection in Time Series Data**
 
 **Date:** July 01, 2024 11.00 AM
