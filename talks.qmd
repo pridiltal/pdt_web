@@ -6,6 +6,22 @@ about:
 
 # 2024
 
+## **Statistics and Data Science Applications for Engineers**
+
+**Date** September 28. 2024
+
+Event : Webinar jointly organized by Institute of Engineers, Sri Lanka (IESL) and Institute of Applied Statistics, Sri Lanka (IASSL)
+
+[Slides](https://pridiltal.github.io/IESL-talk-2024/#1)
+
+## **Exploring Class Overlap in Classification Challenges: Introducing the R Package** `clap`
+
+**Date:** July 10, 2024 1.50 PM
+
+Event: [useR! 2024, Salzburg, Austria](https://events.linuxfoundation.org/user/)
+
+[Slides](https://pridiltal.github.io/useR2024-talk/#/)
+
 ## **Exploring Class Overlap in Classification Challenges: Introducing the R Package** `clap`
 
 **Date:** July 10, 2024 1.50 PM
@@ -184,9 +200,8 @@ Impressive work by <a href="https://twitter.com/pridiltal?ref_src=twsrc%5Etfw">@
 
 </blockquote>
 
-```{=html}
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
+
 <blockquote class="twitter-tweet">
 
 <p lang="en" dir="ltr">
@@ -199,9 +214,8 @@ Very interesting presentations on forecasting, outliers, smoothing, features and
 
 </blockquote>
 
-```{=html}
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
+
 <blockquote class="twitter-tweet">
 
 <p lang="en" dir="ltr">
@@ -214,9 +228,8 @@ Great <a href="https://twitter.com/hashtag/user2019?src=hash&amp;ref_src=twsrc%5
 
 </blockquote>
 
-```{=html}
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
+
 ## A feature-based framework for detecting technical outliers in water-quality data from in situ sensors
 
 **Date:** Jun 18, 2019 12:00 AM — 12:00 AM
