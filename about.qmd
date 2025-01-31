@@ -9,7 +9,7 @@ about:
 
 I am a senior lecturer in the [Department of Computational Mathematics, University of Moratuwa](https://www.mrt.ac.lk/staff/Talagala.PD.php). I earned my PhD in statistics from Monash University, Australia, under the supervision of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home) 
 
-I'm a fellow of OWSD, a UNESCO program, from 2021 to 2025. Additionally, I co-founded [R-Ladies Colombo](https://rladiescolombo.netlify.com/) a local chapter of the [R-Ladies Global Organization](https://www.rladies.org) which aims to promote gender diversity in the R programming community.
+I'm a fellow of OWSD, a UNESCO program, from 2021 to 2025. Additionally, I co-founded [R-Ladies Colombo](https://rladiescolombo.netlify.app/) a local chapter of the [R-Ladies Global Organization](https://www.rladies.org) which aims to promote gender diversity in the R programming community.
 
 My research revolves around Computational Statistics, Anomaly Detection, Time series analysis and forecasting and Statistical Machine Learning. I'm passionate about developing innovative methods and tools to analyze complex data. I am also strongly committed to developing open-source software tools to facilitate reproducible research. You can check out some of my projects [here:](https://prital.netlify.com/#projects) Visit me on [Twitter](https://twitter.com/pridiltal) I post mostly about R, Python, statistics, data science, and science in nature. 
 
@@ -47,7 +47,7 @@ From 2021 to 2024, I served as an associate editor for [The R Journal](https://j
 
 ## 📧 Contact Information
 
-::: {.grid style="row-gap: 1em;"}
+::::: {.grid style="row-gap: 1em;"}
 ::: {.g-col-12 .g-col-md-8}
 <p class="mb-0">
 
@@ -66,4 +66,4 @@ Email: priyangad\@uom.lk
 ::: {.g-col-12 .g-col-md-4 .ms-md-auto}
 [UoM Page](https://uom.lk/staff/Talagala.PD.php){.btn .btn-outline-primary target="_blank"}
 :::
-:::
+:::::

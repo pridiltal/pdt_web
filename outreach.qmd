@@ -17,3 +17,6 @@ about:
 #### [**Data Visualisation with R and Python**](https://pythonandr.netlify.app/about/)
 
 #### [**Data Visualization Camp - UOM Research Week 2023**](https://datavizcamp.netlify.app/)
+
+
+#### [**Getting Started with R for Economists: A Hands-On Workshop, organized for the 52nd Meeting of the Sri Lanka Forum of University Economists. 2025**](https://pridiltal.github.io/r4economists/)
