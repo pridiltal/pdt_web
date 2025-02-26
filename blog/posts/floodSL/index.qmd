@@ -70,8 +70,8 @@ KLNStations <- tibble::tribble(
 )
 
 
-points <- st_as_sf(KLNStations, coords = c("lon", "lat"), crs = 4326)
-
+points <- st_as_sf(KLNStations, coords = c("lon", "lat"), crs = 4326) |>
+  st_transform(crs = st_crs(sf_sl_0))
 data("rivers") 
 
 p <- ggplot(data = sf_sl_0) +   
