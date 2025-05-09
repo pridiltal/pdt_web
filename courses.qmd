@@ -20,6 +20,14 @@ about:
 
 # Courses
 
+## 2025
+
+Department of Computational Mathematics, University of Moratuwa, Sri Lanka
+
+-   CM 1410 Probability and Statistics (Batch 23)
+-   CM 2111 Statistical Inference (Batch 22)
+-   CM 2420 Statistical Inference (Batch 22)
+
 ## 2024
 
 Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
