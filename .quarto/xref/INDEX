@@ -31,5 +31,11 @@
   },
   "outreach.qmd": {
     "outreach.html": "8aef82b7"
+  },
+  "blog/posts/quarto-project-page.qmd": {
+    "quarto-project-page.html": "1dc61e78"
+  },
+  "blog/posts/quartoblock/index.qmd": {
+    "index.html": "4a94dba9"
   }
 }

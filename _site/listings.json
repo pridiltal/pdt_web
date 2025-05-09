@@ -2,6 +2,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/posts/quartoblock/index.html",
       "/blog/posts/floodSL/index.html"
     ]
   }

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-05-09">
 
-<title>PulseSpot – PRIYANGA DILINI TALAGALA</title>
+<title>Creating a Project Page with Blocks in Quarto – PRIYANGA DILINI TALAGALA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +21,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="..//images/icon-32.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../..//images/icon-32.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,72 +103,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="PulseSpot – PRIYANGA DILINI TALAGALA">
-<meta property="og:image" content="/images/DSC_0543.png">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Creating a Project Page with Blocks in Quarto – PRIYANGA DILINI TALAGALA">
+<meta property="og:description" content="">
+<meta property="og:image" content="featured.jpg">
 <meta property="og:site_name" content="PRIYANGA DILINI TALAGALA">
-<meta name="twitter:title" content="PulseSpot – PRIYANGA DILINI TALAGALA">
-<meta name="twitter:image" content="/images/DSC_0543.png">
+<meta name="twitter:title" content="Creating a Project Page with Blocks in Quarto – PRIYANGA DILINI TALAGALA">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="featured.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -146,7 +123,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">PRIYANGA DILINI TALAGALA</span>
     </a>
   </div>
@@ -157,11 +134,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../talks.html"> 
+    <a class="nav-link" href="../../../talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
@@ -169,15 +146,15 @@ window.Quarto = {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../courses.html"> 
+    <a class="nav-link" href="../../../courses.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../outreach.html"> 
+    <a class="nav-link" href="../../../outreach.html"> 
 <span class="menu-text">Outreach</span></a>
   </li>  
 </ul>
@@ -219,25 +196,47 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#step-1-organize-your-project-structure" id="toc-step-1-organize-your-project-structure" class="nav-link active" data-scroll-target="#step-1-organize-your-project-structure">📁 Step 1: Organize Your Project Structure</a></li>
+  <li><a href="#step-2-add-a-grid-of-project-blocks" id="toc-step-2-add-a-grid-of-project-blocks" class="nav-link" data-scroll-target="#step-2-add-a-grid-of-project-blocks">🧱 Step 2: Add a Grid of Project Blocks</a>
+  <ul class="collapse">
+  <li><a href="#explanation" id="toc-explanation" class="nav-link" data-scroll-target="#explanation">🔍 Explanation</a></li>
+  </ul></li>
+  <li><a href="#step-3-create-individual-project-pages" id="toc-step-3-create-individual-project-pages" class="nav-link" data-scroll-target="#step-3-create-individual-project-pages">📝 Step 3: Create Individual Project Pages</a></li>
+  <li><a href="#result" id="toc-result" class="nav-link" data-scroll-target="#result">✅ Result</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">PulseSpot</h1>
-</div>
+<h1 class="title">Creating a Project Page with Blocks in Quarto</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">quarto</div>
+    <div class="quarto-category">web development</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 9, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -247,64 +246,92 @@ window.Quarto = {
 </header>
 
 
+<p>If you’re building a website with <a href="https://quarto.org">Quarto</a> and want to showcase your projects in a clean, responsive grid layout, you’re in the right place. In this blog post, I’ll show you how to create a <strong>project page with blocks</strong>, each containing a title, description, image, and link to a detailed project page.</p>
+<section id="step-1-organize-your-project-structure" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-organize-your-project-structure">📁 Step 1: Organize Your Project Structure</h2>
+<p>Let’s assume the following structure for your Quarto website:</p>
+<pre><code>project.qmd
+projects/
+├── project1.qmd
+├── project2.qmd
+images/
+├── project1.png
+├── project2.png</code></pre>
+<ul>
+<li><code>project.qmd</code> is your main <strong>project listing page</strong>.</li>
+<li><code>projects/</code> contains detailed <code>.qmd</code> files for each project.</li>
+<li><code>images/</code> contains thumbnails or preview images for each project.</li>
+</ul>
+</section>
+<section id="step-2-add-a-grid-of-project-blocks" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-add-a-grid-of-project-blocks">🧱 Step 2: Add a Grid of Project Blocks</h2>
+<p>Inside <code>project.qmd</code>, we’ll use Bootstrap’s grid system (which Quarto supports) to create a responsive layout.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "My Projects"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> html</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="an">page-layout:</span><span class="co"> full</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="an">toc:</span><span class="co"> false</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu"># 🚀 My Projects</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>::: {.grid}</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>::: {.g-col-12 .g-col-md-6}</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="al">![Anomaly Detection](images/project1.png)</span>{width=100px style="float:left; margin-right:1em;"}</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="fu">### Anomaly Detection in Image Streams  </span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>**Description**: A real-time system for identifying anomalies in high-dimensional image data using explainable AI techniques.  </span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>**Tech Stack**: Python, OpenCV, XAI, TensorFlow  </span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">View Project</span><span class="co">](projects/project1.qmd)</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>::: {.g-col-12 .g-col-md-6}</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="al">![Outbreak Detection](images/project2.png)</span>{width=100px style="float:left; margin-right:1em;"}</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="fu">### Outbreak Detection from Surveillance Data  </span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>**Description**: A forecasting tool for detecting early warning signals of disease outbreaks using time series and anomaly detection models.  </span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>**Tech Stack**: R, Prophet, Anomalize  </span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">View Project</span><span class="co">](projects/project2.qmd)</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="explanation" class="level3">
+<h3 class="anchored" data-anchor-id="explanation">🔍 Explanation</h3>
+<ul>
+<li><code>.grid</code> starts a responsive row of blocks.</li>
+<li><code>.g-col-md-6</code> means: take half the width on medium and larger screens.</li>
+<li><code>.g-col-12</code> ensures blocks stack vertically on small screens (Full-width column (single column)).</li>
+<li>If you want three columns, for example, you could use {.g-col-4} (4 + 4 + 4 = 12), and so on.</li>
+<li>The number 12 comes from the Bootstrap grid system, which Quarto uses under the hood for layout.</li>
+<li><code>![Project Image](...)</code> adds a project thumbnail with a nice float layout.</li>
+</ul>
+</section>
+</section>
+<section id="step-3-create-individual-project-pages" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-create-individual-project-pages">📝 Step 3: Create Individual Project Pages</h2>
+<p>Each <code>projects/projectX.qmd</code> file is a standard Quarto page:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Project One"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> html</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu"># Anomaly Detection in Image Streams</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>This project presents a real-time anomaly detection system for high-dimensional image streams, designed to identify unexpected or suspicious patterns. We leverage explainable AI (XAI) techniques to interpret model predictions and highlight regions of interest in images.</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>Include any plots, images, or code relevant to this project.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>These pages will render as part of your site, with their own URL.</p>
+</section>
+<section id="result" class="level2">
+<h2 class="anchored" data-anchor-id="result">✅ Result</h2>
+<p>You now have a responsive, visually clean <strong>project gallery</strong> page, where each block links to a separate project detail page — perfect for portfolios, research showcases, or teaching materials.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="quarto,web development" data-listing-date-sort="1746729000000" data-listing-file-modified-sort="1746808238660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="415">
-<div class="thumbnail">
-<p><a href="../blog/posts/quartoblock/index.html" class="no-external"></a></p><a href="../blog/posts/quartoblock/index.html" class="no-external">
-<p><img loading="lazy" src="../blog/posts/quartoblock/featured.jpg" class="thumbnail-image"></p>
-</a><p><a href="../blog/posts/quartoblock/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/quartoblock/index.html" class="no-external">Creating a Project Page with Blocks in Quarto</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/quartoblock/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../blog/posts/quartoblock/index.html" class="no-external">If you’re building a website with Quarto and want to showcase your projects in a clean, responsive grid layout, you’re in the right place. In this blog post, I’ll show you…<strong></strong></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/quartoblock/index.html" class="no-external">
-<div class="listing-date">
-May 9, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1746516890677" data-listing-reading-time-sort="15" data-listing-word-count-sort="2975">
-<div class="thumbnail">
-<p><a href="../blog/posts/floodSL/index.html" class="no-external"></a></p><a href="../blog/posts/floodSL/index.html" class="no-external">
-<p><img loading="lazy" src="../blog/posts/floodSL/featured.jpg" class="thumbnail-image"></p>
-</a><p><a href="../blog/posts/floodSL/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/floodSL/index.html" class="no-external">Beyond the Floodgates: Rethinking Alert Thresholds for Effective Flood Warning Systems</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/floodSL/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../blog/posts/floodSL/index.html" class="no-external">In recent days, Sri Lanka has experienced severe floods, worsened by the arrival of the southwestern monsoon season. This seasonal weather pattern, which occurs between May…</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="../blog/posts/floodSL/index.html" class="no-external"></a></p><a href="../blog/posts/floodSL/index.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,0 +1,99 @@
+---
+title: "Creating a Project Page with Blocks in Quarto"
+date: 2025-05-09
+image: featured.jpg
+format: html
+categories: [quarto, web development]
+---
+
+If you're building a website with [Quarto](https://quarto.org) and want to showcase your projects in a clean, responsive grid layout, you're in the right place. In this blog post, I’ll show you how to create a **project page with blocks**, each containing a title, description, image, and link to a detailed project page.
+
+## 📁 Step 1: Organize Your Project Structure
+
+Let’s assume the following structure for your Quarto website:
+
+```         
+project.qmd
+projects/
+├── project1.qmd
+├── project2.qmd
+images/
+├── project1.png
+├── project2.png
+```
+
+-   `project.qmd` is your main **project listing page**.
+-   `projects/` contains detailed `.qmd` files for each project.
+-   `images/` contains thumbnails or preview images for each project.
+
+## 🧱 Step 2: Add a Grid of Project Blocks
+
+Inside `project.qmd`, we’ll use Bootstrap’s grid system (which Quarto supports) to create a responsive layout.
+
+``` markdown
+---
+title: "My Projects"
+format: html
+page-layout: full
+toc: false
+---
+
+# 🚀 My Projects
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+![Anomaly Detection](images/project1.png){width=100px style="float:left; margin-right:1em;"}
+
+### Anomaly Detection in Image Streams  
+**Description**: A real-time system for identifying anomalies in high-dimensional image data using explainable AI techniques.  
+**Tech Stack**: Python, OpenCV, XAI, TensorFlow  
+[View Project](projects/project1.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+![Outbreak Detection](images/project2.png){width=100px style="float:left; margin-right:1em;"}
+
+### Outbreak Detection from Surveillance Data  
+**Description**: A forecasting tool for detecting early warning signals of disease outbreaks using time series and anomaly detection models.  
+**Tech Stack**: R, Prophet, Anomalize  
+[View Project](projects/project2.qmd)
+:::
+
+:::
+```
+
+### 🔍 Explanation
+
+-   `.grid` starts a responsive row of blocks.
+-   `.g-col-md-6` means: take half the width on medium and larger screens.
+-   `.g-col-12` ensures blocks stack vertically on small screens (Full-width column (single column)).
+-    If you want three columns, for example, you could use {.g-col-4} (4 + 4 + 4 = 12), and so on.
+-    The number 12 comes from the Bootstrap grid system, which Quarto uses under the hood for layout.
+-   `![Project Image](...)` adds a project thumbnail with a nice float layout.
+
+## 📝 Step 3: Create Individual Project Pages
+
+Each `projects/projectX.qmd` file is a standard Quarto page:
+
+``` markdown
+---
+title: "Project One"
+format: html
+---
+
+# Anomaly Detection in Image Streams
+
+This project presents a real-time anomaly detection system for high-dimensional image streams, designed to identify unexpected or suspicious patterns. We leverage explainable AI (XAI) techniques to interpret model predictions and highlight regions of interest in images.
+
+
+Include any plots, images, or code relevant to this project.
+```
+
+These pages will render as part of your site, with their own URL.
+
+
+## ✅ Result
+
+You now have a responsive, visually clean **project gallery** page, where each block links to a separate project detail page — perfect for portfolios, research showcases, or teaching materials.
+

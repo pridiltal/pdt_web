@@ -1,5 +1,6 @@
 ---
 title: "PulseSpot"
+page-layout: full
 listing:
   contents: posts
   type: default
