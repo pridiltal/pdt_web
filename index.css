@@ -1,7 +1,7 @@
 
 body {
   background: black;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.5)), url("images/DSC_0713.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.5)), url("images/DSC_0713.jpeg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
