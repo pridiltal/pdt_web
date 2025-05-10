@@ -21,6 +21,8 @@ website:
         text: Talks
       - href: https://scholar.google.com.au/citations?user=r4PXCAsAAAAJ&hl=en
         text: Publications
+      - href: https://retinalab.netlify.app/
+        text: Research Highlights
       - href: courses.qmd
         text: Teaching
       - href: blog/index.qmd
