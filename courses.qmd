@@ -27,7 +27,7 @@ about:
 Department of Computational Mathematics, University of Moratuwa, Sri Lanka
 
 - CM 2420 Statistical Inference (Batch 23)
-- CM 4450 Computational Bayasian Statistics (Batch 21)
+- CM 4450 Computational Bayesian Statistics (Batch 21)
 
 Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
 
