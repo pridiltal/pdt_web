@@ -27,23 +27,23 @@ From 2021 to 2024, I served as an associate editor for [The R Journal](https://j
 
 ## 🕵️ Research Interests
 
--   Computational statistics
+- Computational statistics
 
--   Statistical machine learning
+- Statistical machine learning
 
--   Machine learning interpretability
+- Machine learning interpretability
 
--   Anomaly detection
+- Anomaly detection
 
--   Time series analysis and forecasting
+- Time series analysis and forecasting
 
--   Streaming data mining
+- Streaming data mining
 
--   Responsible AI
+- Responsible AI
 
--   Applied statistics
+- Applied statistics
 
--   R programming
+- R programming
 
 ## 📧 Contact Information
 

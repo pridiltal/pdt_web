@@ -44,6 +44,8 @@ website:
         aria-label: Mastodon
       - icon: twitter
         href: https://twitter.com/pridiltal
+      - icon: youtube
+        href: https://www.youtube.com/@retinalab2173
         
   page-footer:
     center:  &copy; Copyright 2017 - 2024 Priyanga Dilini Talagala. Powered by [Quarto](https://quarto.org/).
