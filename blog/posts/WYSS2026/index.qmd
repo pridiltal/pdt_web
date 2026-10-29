@@ -46,3 +46,115 @@ One thing that impressed me throughout the day was how carefully the organisers 
 Watching people from different countries connect, share ideas, and enjoy conversations despite speaking different languages was a special experience. It reminded me that language does not have to be a barrier when people are willing to connect and understand one another.
 
 The first day set a wonderful tone for the summit. It was not only about science and technology; it was also about people, cultures, shared challenges, and the possibilities that emerge when we come together.
+
+## Day 2: Science without borders and the power of young minds
+
+Another important message from the plenary sessions was the role of young people in shaping innovation-driven development. A question that stood out to me was whether we can stay ahead in development without staying one step ahead in innovation. The summit aimed to give young people a greater role in shaping innovation and creating a better future by bringing together talent from around the world.
+
+One particularly meaningful point was the role of education in the age of AI. **AI can be a powerful tool in the hands of a good teacher. Even where a good teacher is not readily available, AI can provide students with opportunities to learn and explore knowledge.** This highlights the potential of AI to make education more accessible, especially for students who have limited access to educational resources.
+
+However, it is important to remember that all the achievements of modern technology, including AI, are built on generations of fundamental human knowledge and education. AI algorithms are rooted in mathematics, statistics, and computer science. The impressive capabilities we see today did not emerge overnight. They are the result of years of scientific discovery, mathematical reasoning, and continuous learning. **AI itself grew out of mathematics and the fundamental sciences.** This makes investing in education and fundamental research more important than ever.
+
+### But why does a summit like this place such a strong emphasis on young scientists?
+
+Looking back at the history of science, many groundbreaking contributions were made when scientists were still relatively young. Albert Einstein was 26 when he published several of his landmark papers in 1905, transforming our understanding of physics. Alan Turing developed the foundational ideas behind modern computation in his early twenties, helping lay the groundwork for artificial intelligence. John McCarthy was also a young researcher when he helped establish AI as a distinct field of study in the 1950s. 
+
+These examples remind us that young people should not simply be viewed as the future of science. They are already contributing to scientific progress today. They bring curiosity, fresh perspectives, and a willingness to question existing approaches. Providing them with opportunities, resources, mentorship, and international connections can help turn their ideas into meaningful discoveries and innovations.
+
+For me, this was one of the most valuable messages of the summit. If we want to build a better future, we must invest in young people, strengthen education, support fundamental scientific research, and create opportunities for talent to flourish across borders. Innovation is not just about developing the next technology. It is about nurturing the people and knowledge that make such developments possible.
+
+
+### Women Scientists in the Age of AI
+
+In the afternoon, I attended the 2026 World Young Scientist Summit Women Scientists Forum, themed “Women's Scientific Power in the AI Era: Innovation Growth and Global Collaboration.”
+
+Several women scientists shared their innovations and research across different application domains, followed by panel discussions on the role of women in science, technological innovation, and international collaboration.
+
+One message that particularly stayed with me was the importance of women's voices and representation in the AI era. As one speaker pointed out, instead of asking whether AI would take away our jobs, we should focus on embracing AI and learning how to use it effectively. Rather than viewing AI only as a threat, we need to understand its potential and actively participate in shaping its future.
+
+Another powerful point was that women are often invisible in the data, and AI learns from that invisibility. When women are underrepresented in research data, their needs and experiences can be overlooked by the technologies developed using that data. The speaker highlighted that it could take many years for countries to achieve full availability of gender-related data for the Sustainable Development Goals. She also noted that women were not mandated to be included in US clinical trials until 1993.
+
+The consequences of these gaps can be significant. For example, diagnosing endometriosis can take an average of 7–10 years, illustrating the challenges women face when their health experiences are not adequately represented in research and clinical knowledge. If AI systems are trained on incomplete or biased data, they risk carrying these same gaps into the future.
+
+This discussion reminded me that developing better AI is not only about building more powerful algorithms. It is also about asking whose data are included, whose experiences are represented, and whose problems are being addressed. If women are not adequately represented in the data, they risk being left out of the solutions as well.
+
+For AI to benefit everyone, women must have a stronger voice not only as users of technology but also as researchers, developers, decision-makers, and leaders. Their participation is essential to building AI systems that are more inclusive, fair, and responsive to the needs of society.
+
+
+## Day 3: AI and the Future of Scientific Publishing
+
+On the third day, I attended the 2026 World Young Scientist Summit: Young Scholars and Premier Journals – A Collaborative Growth Forum. The forum explored how artificial intelligence is changing scientific publishing, from the way authors write and reviewers evaluate manuscripts to the way editorial offices manage submissions and readers access scientific knowledge.
+
+One of the key discussions focused on how AI is changing the behaviour and practices of authors, reviewers, editors, and readers. Authors are increasingly using AI in writing, while reviewers and editors are exploring ways to use it to make the review process more efficient. AI tools can also help editorial offices automate administrative tasks, conduct checks for duplicate submissions, and support readers who have limited time to engage with the growing volume of scientific literature.
+
+An important challenge highlighted during the forum was the growing pressure on the scientific publishing system. According to an analysis presented at the event, the volume of paper submissions increased by 55% between January 2023 and December 2025, while published output increased by only 28% over the same period. This gap places an increasing burden on reviewers and editorial boards, whose time and expertise are essential for maintaining the quality of scientific publications.
+
+AI may offer ways to accelerate the review process and reduce administrative workloads. However, it is equally important to identify the misuse of AI and potential research misconduct. AI-generated content can appear convincing without representing genuine, rigorous scientific work. Detecting such problems is not always straightforward, making the responsibilities of reviewers and editorial boards more important than ever.
+
+A particularly memorable message came from Emmie Yang, Head of Publishing, APAC, at IOP Publishing. She emphasised a distinction that I found especially important: AI is not misconduct. AI provides signals, not verdicts. AI can assist, but it cannot replace accountability.
+
+This is a valuable principle for the future of scientific publishing. The use of AI should not automatically be treated as misconduct. Instead, concerns must be assessed carefully, with human judgement playing a central role. AI can help identify potential problems, but the final responsibility for evaluating evidence, ensuring research integrity, and making editorial decisions must remain with people.
+
+The discussion reinforced my view that the future of scientific publishing will depend not simply on how effectively we adopt AI, but on how responsibly we use it. We need efficient publishing processes that can keep pace with the growth of research while protecting scientific integrity, rigorous peer review, and trust in the published scientific record.
+
+### Exploring the History and Culture of Wenzhou
+
+In the afternoon, we went on a cultural tour of Wenzhou, visiting Shuomen Ancient Port and the World Wenzhounese Museum. After spending the previous days discussing science, technology, and international collaboration, it was wonderful to learn more about the history and global connections of the city that hosted the summit.
+
+Our first stop was Shuomen Ancient Port, a historic port that played an important role in Wenzhou's maritime trade and its connections with the ancient Maritime Silk Road. Archaeological discoveries at the site have revealed remains of old docks, shipwrecks, and ancient trade activities, reflecting Wenzhou's history as a centre of overseas commerce. It was fascinating to see how the city had built connections with other parts of the world through trade long before today's modern transport and communication systems.
+
+We then visited the World Wenzhounese Museum, which tells the story of Wenzhou people who have travelled across the world and established communities in different countries. The museum highlights their migration journeys, entrepreneurial spirit, cultural identity, and contributions to communities both at home and overseas.
+
+What I found particularly interesting was the connection between these two visits. Shuomen Ancient Port represented Wenzhou's historic links with the world through maritime trade, while the museum showed how those global connections have continued through generations of migration and entrepreneurship.
+
+The visits offered a valuable reminder that international connections are built not only through science and technology but also through people, culture, trade, and shared experiences. It was a memorable opportunity to understand another side of Wenzhou beyond its growing scientific and technological landscape.
+
+## Day 4: A Little Escape from the City
+
+After three days filled with scientific discussions, new ideas, and opportunities to connect with researchers from around the world, Day 4 offered a different kind of experience—a little escape from the city and a chance to explore the natural beauty and cultural heritage of Wenzhou.
+
+Our destination was Yongjia County, where rivers, ancient villages, and centuries of history awaited us. Andy, our tour guide, made the day even more enjoyable with his excellent guidance and friendly approach.
+
+Floating Along the Nanxi River
+
+Our first stop was the beautiful Nanxi River, where we enjoyed a peaceful bamboo raft ride surrounded by green mountains and traditional rural scenery. After several days of conference sessions, it was refreshing to slow down, enjoy the quiet surroundings, and take in the natural beauty of the region.
+
+Cangpo Ancient Village: Where Farming Meets Learning
+
+Next, we visited Cangpo Ancient Village, a historic settlement with a village layout dating back to the Song Dynasty. What fascinated me most was how the village's design reflects the importance of both education and agriculture in traditional Chinese culture. Its layout incorporates the Four Treasures of the Study—brush, inkstick, paper, and inkstone.
+
+The village's philosophy can be summed up in a beautiful idea: studying brings honour, while farming brings fortune. It was interesting to see how these values were reflected in the design and history of the village.
+
+Walking Through History at Yantou Village
+
+Our next stop was Yantou Village, home to Lishui Ancient Street. The long wooden gallery street, built during the Ming Dynasty, runs alongside a canal that was also part of the village's water-management system. Walking along this historic street offered a glimpse into how earlier generations designed their communities around both everyday life and the natural environment.
+
+Our Final Stop: Taogong Cave
+
+We ended our countryside tour at Taogong Cave, a striking natural cavern associated with Taoist traditions. Its impressive rock formations and peaceful surroundings made it a memorable final stop on our exploration of Yongjia.
+
+Ending the Day with Wonderful Hospitality
+
+After a day of exploring, we returned for a fine-dining dinner at Tonglingshan Hall at the Hilton Wenzhou City Center. It was a lovely way to end the journey and spend time with the people who had made the entire experience so special.
+
+A special shout-out to Zoe, Georgia, and the entire organising team. Their support extended far beyond arranging the scientific programme. From the visa application process to coordinating our travel and ensuring that we were well looked after throughout our stay, they paid attention to every detail. The entire visit felt thoughtfully organised from beginning to end.
+
+I would also like to thank Andy and his team for making our countryside excursion such an enjoyable experience. Their knowledge and hospitality added another special dimension to my visit to Wenzhou.
+
+This little escape from the city was more than a break from the conference. It gave me the opportunity to experience another side of Wenzhou—its landscapes, history, traditions, and warm hospitality—and left me with memories that I will treasure long after the summit.
+
+## Beyond the Destinations: The People Who Made It Special
+
+I want to end by giving a very special shout-out to Zoe and Georgia, who did a fantastic job as the main coordinating team, as well as the student volunteers and local partners who contributed to making this experience so memorable.
+
+Zoe and Georgia went above and beyond to look after every participant, from the visa application process before our arrival to our departure from China. What impressed me most was the individual attention they gave to everyone's needs and requests. They paid attention to even the smallest details and were always ready to help. Their support went far beyond coordinating the conference programme; they made sure we felt supported throughout the entire journey.
+
+They also carefully managed the programme so that we could attend sessions on time, make the most of the scientific discussions, and have opportunities to connect with fellow participants beyond the formal sessions. Coordinating an international event involving participants from many countries is no small task, and their dedication and attention to detail made the experience smooth and enjoyable.
+
+I was equally impressed by the university student volunteers who supported the programme. They were disciplined, enthusiastic, and united by a common goal. Their excellent communication, willingness to help, and genuine enthusiasm for interacting with participants were evident throughout the event.
+
+One small gesture that particularly stayed with me was on our departure day. The volunteers came to see us off at the airport and brought fruit and sandwiches for us to enjoy before leaving. They even escorted us towards baggage clearance. This thoughtful attention, right until the very end of our visit, reflected the wonderful hospitality we experienced throughout the summit.
+
+I would also like to acknowledge the Zhejiang Association of Young Professionals and the local professional and academic networks that contributed to the summit. Their engagement in the parallel forums, innovation showcases, and opportunities for cross-border exchange helped bring together people from different backgrounds and create opportunities for collaboration.
+
+Zoe, Georgia, the student volunteers, and everyone who contributed behind the scenes—thank you for your dedication, kindness, and outstanding hospitality. The scientific programme brought us together, but the people who worked so hard to make it happen made the entire journey truly memorable.
