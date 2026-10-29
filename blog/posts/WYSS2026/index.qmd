@@ -156,11 +156,11 @@ The visits offered a valuable reminder that international connections are built 
 
 After three days filled with scientific discussions, new ideas and opportunities to connect with researchers from around the world, Day 4 offered a different experience. 
 
-The view from our hotel showed another side of Wenzhou, with its impressive high-rise buildings and busy commercial landscape. It reflected the city's rapid development and urban character.
+The view from our hotel showed one side of Wenzhou, with its impressive high-rise buildings and busy commercial landscape. It reflected the city's rapid development and urban character.
 
 ![At the World Young Scientist Summit 2026.](fig/wonzhou.jpeg){width=80% fig-align="center"}
 
-However, our final day also gave us an opportunity to discover a very different side of the region as we travelled to Yongjia County to explore its beautiful countryside, traditional villages and cultural heritage. Andy, our tour guide, made the day even more enjoyable with his excellent guidance and friendly approach.
+However, our final day also gave us an opportunity to discover another side of the region as we travelled to Yongjia County to explore its beautiful countryside, traditional villages and cultural heritage. Andy, our tour guide, made the day even more enjoyable with his excellent guidance and friendly approach.
 
 ![Yongjia County](fig/tour.png){width=90% fig-align="center"}
 
