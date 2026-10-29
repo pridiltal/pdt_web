@@ -14,6 +14,8 @@ execute:
 
 I was honoured to participate in the 2026 World Young Scientist Summit (WYSS), held in Wenzhou, Zhejiang Province, China, as a member of the delegation of The World Academy of Sciences (TWAS), the Guest of Honour organisation for WYSS 2026. I am especially grateful to the Organization for Women in Science for the Developing World (OWSD) for nominating me for this valuable opportunity. 
 
+![At the World Young Scientist Summit 2026.](fig/Day1_a.jpeg){width=90% fig-align="center"}
+
 Hosted by the China Association for Science and Technology (CAST), the Zhejiang Provincial People's Government and the World Association of Young Scientists (WAYS), the summit brought together nearly 800 scientists, educators and entrepreneurs from more than 60 countries and regions. Under the theme "Gathering Talents Worldwide to Create a Better Future," the summit focused on "Global Youth Action in the AI Era: Building a Sustainable Future." It provided a platform to exchange ideas, explore the role of artificial intelligence in different fields and discuss how international scientific collaboration can help address global challenges.
 
 ## Day 1: Connecting young scientists and exploring global challenges
@@ -25,6 +27,8 @@ What I particularly enjoyed was the opportunity to hear different perspectives f
 ### Rethinking scientific research in the age of AI
 
 One of the most thought-provoking parts of the International Young Scientists' Roundtable was the discussion on how scientific research is changing in the age of artificial intelligence. Several important points were raised about the responsibilities of young scientists, the role of AI in research and the values that must remain at the heart of scientific progress.
+
+![At the World Young Scientist Summit 2026.](fig/Day1.jpeg){width=90% fig-align="center"} 
 
 One point that particularly stood out to me was the growing tendency to focus on producing polished manuscripts rather than on the quality of the scientific work itself. A well-written paper is important, but it should never become more important than sound scientific results, reliable data and the proper validation of findings. These are the foundations of meaningful scientific progress. AI tools will continue to evolve, but the fundamental purpose of science remains unchanged: to explain and understand how the natural world works while building reliable, evidence-based knowledge.
 
@@ -40,6 +44,8 @@ For me, one of the key messages from this discussion was that technological prog
 
 The first day concluded with the WYSS Welcome Dinner at Awailou Resort Hotel. It was a wonderful introduction to Chinese food, culture and hospitality. The dinner featured a variety of traditional Chinese dishes and our hosts took the time to introduce us to Wenzhou, its strengths, facilities and areas of development.
 
+![At the World Young Scientist Summit 2026.](fig/Day1_c.jpeg){width=90% fig-align="center"}
+
 At our table, we had the pleasure of meeting Zhang Benfeng, Vice Mayor of the Wenzhou Municipal People's Government and a former second-class inspector of the Zhejiang Provincial Association for Science and Technology. Their presence and the warm welcome extended by the hosts made the evening particularly memorable.
 
 One thing that impressed me throughout the day was how carefully the organisers had considered communication. English translation headphones were provided during the sessions, while a dedicated interpreter assisted our table during the dinner, translating the hosts' introductions and conversations.
@@ -54,7 +60,11 @@ On 24 October, the second day of the World Young Scientist Summit 2026 featured 
 
 Before the plenary sessions, I visited an exhibition showcasing several cutting-edge technologies and innovative developments. This was particularly valuable for me as the Faculty of Information Technology at the University of Moratuwa was preparing for FIT Expo 2026, scheduled for November. Seeing how new technologies and innovations were presented provided useful ideas and inspiration for our upcoming exhibition.
 
+![At the World Young Scientist Summit 2026.](fig/Day2_b.jpeg){height=100% fig-align="center"}
+
 Several important messages emerged from the WYSS 2026 plenary sessions. One that particularly resonated with me was that science is like water. It should flow across borders. Scientific knowledge should be shared freely, allowing researchers from different countries and backgrounds to learn from one another and work together to address global challenges. We must also embrace AI across disciplines and explore its potential to advance science, education, industry and society.
+
+![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/Day2_a.jpeg){height=100% fig-align="center"}
 
 Another key message was that innovation is not a solo performance. It has become a shared pursuit and a joint effort across society. Meaningful innovation requires collaboration among researchers, universities, industries, businesses and governments. Bringing these different groups together helps transform scientific discoveries into practical solutions that benefit society.
 

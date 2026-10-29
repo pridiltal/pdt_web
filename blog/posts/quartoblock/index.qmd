@@ -22,9 +22,9 @@ images/
 ├── project2.png
 ```
 
--   `project.qmd` is your main **project listing page**.
--   `projects/` contains detailed `.qmd` files for each project.
--   `images/` contains thumbnails or preview images for each project.
+- `project.qmd` is your main **project listing page**.
+- `projects/` contains detailed `.qmd` files for each project.
+- `images/` contains thumbnails or preview images for each project.
 
 ## 🧱 Step 2: Add a Grid of Project Blocks
 
@@ -65,12 +65,12 @@ toc: false
 
 ### 🔍 Explanation
 
--   `.grid` starts a responsive row of blocks.
--   `.g-col-md-6` means: take half the width on medium and larger screens.
--   `.g-col-12` ensures blocks stack vertically on small screens (Full-width column (single column)).
--    If you want three columns, for example, you could use {.g-col-4} (4 + 4 + 4 = 12), and so on.
--    The number 12 comes from the Bootstrap grid system, which Quarto uses under the hood for layout.
--   `![Project Image](...)` adds a project thumbnail with a nice float layout.
+- `.grid` starts a responsive row of blocks.
+- `.g-col-md-6` means: take half the width on medium and larger screens.
+- `.g-col-12` ensures blocks stack vertically on small screens (Full-width column (single column)).
+- If you want three columns, for example, you could use {.g-col-4} (4 + 4 + 4 = 12), and so on.
+- The number 12 comes from the Bootstrap grid system, which Quarto uses under the hood for layout.
+- `![Project Image](...)` adds a project thumbnail with a nice float layout.
 
 ## 📝 Step 3: Create Individual Project Pages
 
@@ -92,8 +92,6 @@ Include any plots, images, or code relevant to this project.
 
 These pages will render as part of your site, with their own URL.
 
-
 ## ✅ Result
 
 You now have a responsive, visually clean **project gallery** page, where each block links to a separate project detail page — perfect for portfolios, research showcases, or teaching materials.
-
