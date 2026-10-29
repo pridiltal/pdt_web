@@ -37,5 +37,8 @@
   },
   "blog/posts/quartoblock/index.qmd": {
     "index.html": "4a94dba9"
+  },
+  "blog/posts/WYSS2026/index.qmd": {
+    "index.html": "3850d835"
   }
 }
