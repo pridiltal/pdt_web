@@ -60,11 +60,11 @@ On 24 October, the second day of the World Young Scientist Summit 2026 featured 
 
 Before the plenary sessions, I visited an exhibition showcasing several cutting-edge technologies and innovative developments. This was particularly valuable for me as the Faculty of Information Technology at the University of Moratuwa was preparing for FIT Expo 2026, scheduled for November. Seeing how new technologies and innovations were presented provided useful ideas and inspiration for our upcoming exhibition.
 
-![At the World Young Scientist Summit 2026.](fig/Day2_b.jpeg){width=40% fig-align="center"}
+![At the World Young Scientist Summit 2026.](fig/Day2_b.png){width=80% fig-align="center"}
 
 Several important messages emerged from the WYSS 2026 plenary sessions. One that particularly resonated with me was that science is like water. It should flow across borders. Scientific knowledge should be shared freely, allowing researchers from different countries and backgrounds to learn from one another and work together to address global challenges. We must also embrace AI across disciplines and explore its potential to advance science, education, industry and society.
 
-![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/Day2_a.jpeg){width=70% fig-align="center"}
+![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/Day2_a.jpeg){width=90% fig-align="center"}
 
 Another key message was that innovation is not a solo performance. It has become a shared pursuit and a joint effort across society. Meaningful innovation requires collaboration among researchers, universities, industries, businesses and governments. Bringing these different groups together helps transform scientific discoveries into practical solutions that benefit society.
 
@@ -91,6 +91,8 @@ For me, this was one of the most valuable messages of the summit. **If we want t
 
 In the afternoon, I attended the 2026 World Young Scientist Summit Women Scientists Forum, themed "Women's Scientific Power in the AI Era: Innovation Growth and Global Collaboration."
 
+![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/womeninAI.jpeg){width=90% fig-align="center"}
+
 Several women scientists shared their innovations and research across different application domains, followed by panel discussions on the role of women in science, technological innovation and international collaboration.
 
 One message that particularly stayed with me was the importance of women's voices and representation in the AI era. As one speaker pointed out, instead of asking whether AI would take away our jobs, we should focus on embracing AI and learning how to use it effectively. Rather than viewing AI only as a threat, we need to understand its potential and actively participate in shaping its future.
@@ -114,6 +116,8 @@ AI may offer ways to accelerate the review process and reduce administrative wor
 
 A particularly memorable message came from Emmie Yang, Head of Publishing, APAC, at IOP Publishing. She emphasised a distinction that I found especially important: "AI is not misconduct. AI provides signals, not verdicts. AI can assist, but it cannot replace accountability."
 
+![At the World Young Scientist Summit 2026.](fig/day3.jpeg){width=90% fig-align="center"}
+
 This is a valuable principle for the future of scientific publishing. The use of AI should not automatically be treated as misconduct. Instead, concerns must be assessed carefully, with human judgement playing a central role. AI can help identify potential problems, but the final responsibility for evaluating evidence, ensuring research integrity and making editorial decisions must remain with people.
 
 The discussion reinforced my view that the future of scientific publishing will depend not simply on how effectively we adopt AI, but on how responsibly we use it. We need efficient publishing processes that can keep pace with the growth of research while protecting scientific integrity, rigorous peer review and trust in the published scientific record.
@@ -124,7 +128,12 @@ In the afternoon, we went on a cultural tour of Wenzhou, visiting Shuomen Ancien
 
 Our first stop was Shuomen Ancient Port, a historic port that played an important role in Wenzhou's maritime trade and its connections with the ancient Maritime Silk Road. Archaeological discoveries at the site have revealed remains of old docks, shipwrecks and ancient trade activities, reflecting Wenzhou's history as a centre of overseas commerce. It was fascinating to see how the city had built connections with other parts of the world through trade long before today's modern transport and communication systems.
 
+
+![At the World Young Scientist Summit 2026.](fig/port.jpeg){width=90% fig-align="center"}
+
 We then visited the World Wenzhounese Museum, which tells the story of Wenzhou people who have travelled across the world and established communities in different countries. The museum highlights their migration journeys, entrepreneurial spirit, cultural identity and contributions to communities both at home and overseas.
+
+![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/Museum.jpeg){width=90% fig-align="center"}
 
 What I found particularly interesting was the connection between these two visits. Shuomen Ancient Port represented Wenzhou's historic links with the world through maritime trade, while the museum showed how those global connections have continued through generations of migration and entrepreneurship.
 
@@ -135,6 +144,8 @@ The visits offered a valuable reminder that international connections are built 
 After three days filled with scientific discussions, new ideas and opportunities to connect with researchers from around the world, Day 4 offered a different kind of experience - a little escape from the city and a chance to explore the natural beauty and cultural heritage of Wenzhou.
 
 Our destination was Yongjia County, where rivers, ancient villages and centuries of history awaited us. Andy, our tour guide, made the day even more enjoyable with his excellent guidance and friendly approach.
+
+![At the World Young Scientist Summit 2026.](fig/tour.png){width=90% fig-align="center"}
 
 #### Floating along the Nanxi river
 
@@ -167,15 +178,21 @@ I want to end by giving a very special shout-out to Zoe and Georgia, who did a f
 
 Zoe and Georgia went above and beyond to look after every participant, from the visa application process before our arrival to our departure from China. What impressed me most was the individual attention they gave to everyone's needs and requests. They paid attention to even the smallest details and were always ready to help. Their support went far beyond coordinating the conference programme. They made sure we felt supported throughout the entire journey.
 
+![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/zoe.jpeg){width=45% fig-align="center"}
+
 They also carefully managed the programme so that we could attend sessions on time, make the most of the scientific discussions and have opportunities to connect with fellow participants beyond the formal sessions. Coordinating an international event involving participants from many countries is no small task and their dedication and attention to detail made the experience smooth and enjoyable.
 
 I was equally impressed by the university student volunteers who supported the programme. They were disciplined, enthusiastic and united by a common goal. Their excellent communication, willingness to help and genuine enthusiasm for interacting with participants were evident throughout the event.
 
 One small gesture that particularly stayed with me was on our departure day. The volunteers came to see us off at the airport and brought fruit and sandwiches for us to enjoy before leaving. They even escorted us towards baggage clearance. This thoughtful attention, right until the very end of our visit, reflected the wonderful hospitality we experienced throughout the summit.
 
+![At the World Young Scientist Summit 2026 with Jerry Wei and a fellow student volunteer from Wenzhou-Kean University.](fig/jerry.jpeg){width=45% fig-align="center"}
+
 I would also like to acknowledge the **Zhejiang Association of Young Professionals** and the local professional and academic networks that contributed to the summit. Their engagement in the parallel forums, innovation showcases and opportunities for cross-border exchange helped bring together people from different backgrounds and create opportunities for collaboration.
 
 
 A special thank you to the amazing team at **Wenzhou Jingcheng International Travel Agency** for making our excursions such an enjoyable part of the journey. During our Day 3 visit to Shuomen Ancient Port, our guide, Wu Aifeng, shared valuable insights into the site's history and significance, helping us appreciate it beyond what we could see. On our final day, Andy guided us through the beautiful countryside of Yongjia. The entire team were friendly, knowledgeable, fluent in English and incredibly supportive throughout our stay. They made it easy for us to learn about the places we visited and understand the stories and traditions behind them. Their professionalism, willingness to help and warm hospitality made exploring Wenzhou and its surroundings a truly memorable experience. If you are planning to visit Wenzhou, I would certainly recommend Wenzhou Jingcheng International Travel Agency for exploring the region's natural beauty, history and cultural heritage.
+
+![At the World Young Scientist Summit 2026 with Jerry Wei and a fellow student volunteer from Wenzhou-Kean University.](fig/tourguide.png){width=80% fig-align="center"}
 
 Zoe, Georgia, the student volunteers, travel team and everyone who contributed behind the scenes-thank you for your dedication, kindness and outstanding hospitality. The scientific programme brought us together, but the people who worked so hard to make it happen made the entire journey truly memorable.
