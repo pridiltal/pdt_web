@@ -60,11 +60,11 @@ On 24 October, the second day of the World Young Scientist Summit 2026 featured 
 
 Before the plenary sessions, I visited an exhibition showcasing several cutting-edge technologies and innovative developments. This was particularly valuable for me as the Faculty of Information Technology at the University of Moratuwa was preparing for FIT Expo 2026, scheduled for November. Seeing how new technologies and innovations were presented provided useful ideas and inspiration for our upcoming exhibition.
 
-![At the World Young Scientist Summit 2026.](fig/Day2_b.jpeg){height=100% fig-align="center"}
+![At the World Young Scientist Summit 2026.](fig/Day2_b.jpeg){width=40% fig-align="center"}
 
 Several important messages emerged from the WYSS 2026 plenary sessions. One that particularly resonated with me was that science is like water. It should flow across borders. Scientific knowledge should be shared freely, allowing researchers from different countries and backgrounds to learn from one another and work together to address global challenges. We must also embrace AI across disciplines and explore its potential to advance science, education, industry and society.
 
-![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/Day2_a.jpeg){height=100% fig-align="center"}
+![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/Day2_a.jpeg){width=70% fig-align="center"}
 
 Another key message was that innovation is not a solo performance. It has become a shared pursuit and a joint effort across society. Meaningful innovation requires collaboration among researchers, universities, industries, businesses and governments. Bringing these different groups together helps transform scientific discoveries into practical solutions that benefit society.
 
