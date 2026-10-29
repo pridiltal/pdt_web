@@ -79,9 +79,9 @@ Before the plenary sessions, I visited an exhibition showcasing several cutting-
 
 ![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/Day2_a.jpeg){width=90% fig-align="center"}
 
-Several important messages emerged from the WYSS 2026 plenary sessions. One that particularly resonated with me was that **“science is like water. It should flow across borders.”** Scientific knowledge should be shared freely, allowing researchers from different countries and backgrounds to learn from one another and work together to address global challenges. We must also embrace AI across disciplines and explore its potential to advance science, education, industry and society.
+Several important messages emerged from the WYSS 2026 plenary sessions. One that particularly resonated with me was that **"science is like water. It should flow across borders."** Scientific knowledge should be shared freely, allowing researchers from different countries and backgrounds to learn from one another and work together to address global challenges. We must also embrace AI across disciplines and explore its potential to advance science, education, industry and society.
 
-Closely related to this idea of sharing knowledge was another key message: **innovation is not a solo performance, but a shared pursuit involving all sectors of society.** Meaningful innovation requires collaboration among researchers, universities, industries, businesses and governments. Bringing these groups together helps transform scientific discoveries into practical solutions that benefit society.
+Closely related to this idea of sharing knowledge was another key message: **"innovation is not a solo performance, but a shared pursuit involving all sectors of society."** Meaningful innovation requires collaboration among researchers, universities, industries, businesses and governments. Bringing these groups together helps transform scientific discoveries into practical solutions that benefit society.
 
 Wenzhou's **“One Hub and Five Valleys”** innovation cluster, which includes the China Data Security Hub, offered an interesting example of this approach. The initiative brings together approximately 5,400 enterprises and more than 400,000 young people, highlighting the scale of the local innovation ecosystem and the importance of connecting talent, businesses and technology.
 
@@ -89,7 +89,7 @@ These examples reinforced the idea that scientific progress depends not only on 
 
 This brought me to another important topic: the role of education in the age of AI. One particularly meaningful message was: **“AI can be a powerful tool in the hands of a good teacher. Even where a good teacher is not readily available, AI can provide students with opportunities to learn and explore knowledge.”** This highlights the potential of AI to make education more accessible, particularly for students with limited access to educational resources. However, realising this potential also requires us to recognise the importance of the knowledge and education on which these technologies depend.
 
-The achievements of modern technology, including AI, are built on generations of fundamental human knowledge. Today's AI algorithms draw on mathematics, statistics and computer science, and their capabilities are the result of decades of scientific discovery, mathematical reasoning and continuous learning. **AI itself grew out of mathematics and the fundamental sciences.** Therefore, as we explore new possibilities with AI, we must continue investing in education, fundamental research and the development of young scientific talent. These foundations will be essential for responsible innovation and sustainable progress.
+The achievements of modern technology, including AI, are built on generations of fundamental human knowledge. Today's AI algorithms draw on mathematics, statistics and computer science and their capabilities are the result of decades of scientific discovery, mathematical reasoning and continuous learning. **"AI itself grew out of mathematics and the fundamental sciences."** Therefore, as we explore new possibilities with AI, we must continue investing in education, fundamental research and the development of young scientific talent. These foundations will be essential for responsible innovation and sustainable progress.
 
 ### But why does a summit like this place such a strong emphasis on young scientists?
 
@@ -97,7 +97,7 @@ Looking back at the history of science, many groundbreaking contributions were m
 
 These examples remind us that young people should not simply be viewed as the future of science. They are already contributing to scientific progress today. They bring curiosity, fresh perspectives and a willingness to question existing approaches. Providing them with opportunities, resources, mentorship and international connections can help turn their ideas into meaningful discoveries and innovations.
 
-For me, this was one of the most valuable messages of the summit. **If we want to build a better future, we must invest in young people, strengthen education, support fundamental scientific research,and create opportunities for talent to flourish across borders.** Innovation is not just about developing the next technology. It is about nurturing the people and knowledge that make such developments possible.
+For me, this was one of the most valuable messages of the summit. **If we want to build a better future, we must invest in young people, strengthen education, support fundamental scientific research and create opportunities for talent to flourish across borders.** Innovation is not just about developing the next technology. It is about nurturing the people and knowledge that make such developments possible.
 
 
 ### Women scientists in the age of AI
@@ -110,7 +110,7 @@ Several women scientists shared their innovations and research across different 
 
 One message that particularly stayed with me was the importance of women's voices and representation in the AI era. As one speaker pointed out, instead of asking whether AI would take away our jobs, we should focus on embracing AI and learning how to use it effectively. Rather than viewing AI only as a threat, we need to understand its potential and actively participate in shaping its future.
 
-One issue that deserves attention is how gaps in research data can affect women and the AI systems developed using that data. When women's experiences are underrepresented in research, their needs may be overlooked in the technologies and services built on that evidence.
+In my view, one issue that deserves attention is how gaps in research data can affect women and the AI systems developed using that data. When women's experiences are underrepresented in research, their needs may be overlooked in the technologies and services built on that evidence.
 
 These issues have implications for AI. Systems trained on incomplete or unrepresentative data risk reproducing existing biases and overlooking the needs of groups that are already underrepresented. Developing better AI therefore requires more than improving algorithms. We also need to consider whose data are included, whose experiences are represented and whose needs are being addressed.
 
@@ -142,21 +142,24 @@ In the afternoon, we went on a cultural tour of Wenzhou, visiting Shuomen Ancien
 Our first stop was Shuomen Ancient Port, a historic port that played an important role in Wenzhou's maritime trade and its connections with the ancient Maritime Silk Road. Archaeological discoveries at the site have revealed remains of old docks, shipwrecks and ancient trade activities, reflecting Wenzhou's history as a centre of overseas commerce. It was fascinating to see how the city had built connections with other parts of the world through trade long before today's modern transport and communication systems.
 
 
-![At the World Young Scientist Summit 2026.](fig/port.jpeg){width=90% fig-align="center"}
+![At the Shuomen Ancient Port](fig/port.jpeg){width=90% fig-align="center"}
 
 We then visited the World Wenzhounese Museum, which tells the story of Wenzhou people who have travelled across the world and established communities in different countries. The museum highlights their migration journeys, entrepreneurial spirit, cultural identity and contributions to communities both at home and overseas.
 
-![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/Museum.jpeg){width=90% fig-align="center"}
+![At the the World Wenzhounese Museum. (Photo credit: WYSS 2026 Photo Gallery)](fig/Museum.jpeg){width=90% fig-align="center"}
 
 What I found particularly interesting was the connection between these two visits. Shuomen Ancient Port represented Wenzhou's historic links with the world through maritime trade, while the museum showed how those global connections have continued through generations of migration and entrepreneurship.
 
-The visits offered a valuable reminder that international connections are built not only through science and technology but also through people, culture, trade and shared experiences. It was a memorable opportunity to understand another side of Wenzhou beyond its growing scientific and technological landscape.
+The visits offered a valuable reminder that international connections are built not only through science and technology but also through people, culture, trade and shared experiences.
 
 ## Day 4: A little escape from the city
 
-After three days filled with scientific discussions, new ideas and opportunities to connect with researchers from around the world, Day 4 offered a different kind of experience - a little escape from the city and a chance to explore the natural beauty and cultural heritage of Wenzhou.
+After three days filled with scientific discussions, new ideas and opportunities to connect with researchers from around the world, Day 4 offered a different experience. 
 
-Our destination was Yongjia County, where rivers, ancient villages and centuries of history awaited us. Andy, our tour guide, made the day even more enjoyable with his excellent guidance and friendly approach.
+The view from our hotel showed another side of Wenzhou, with its impressive high-rise buildings and busy commercial landscape. It reflected the city's rapid development and urban character.
+
+![At the World Young Scientist Summit 2026.](fig/wonzhou.jpeg){width=90% fig-align="center"}
+However, our final day also gave us an opportunity to discover a very different side of the region as we travelled to Yongjia County to explore its beautiful countryside, traditional villages and cultural heritage. Andy, our tour guide, made the day even more enjoyable with his excellent guidance and friendly approach.
 
 ![At the World Young Scientist Summit 2026.](fig/tour.png){width=90% fig-align="center"}
 
