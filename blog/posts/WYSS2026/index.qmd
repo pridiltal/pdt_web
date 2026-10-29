@@ -68,6 +68,21 @@ Before the plenary sessions, I visited an exhibition showcasing several cutting-
 [Watch the CGTN news coverage of WYSS 2026](https://news.cgtn.com/news/2026-10-26/VHJhbnNjcmlwdDkzMDA4/index.html)
 
 
+<figure style="max-width: 650px; margin: 1.5em auto;">
+  <iframe
+    src="https://news.cgtn.com/news/2026-10-26/VHJhbnNjcmlwdDkzMDA4/index.html"
+    width="100%"
+    height="400"
+    style="border: 1px solid #ddd;"
+    loading="lazy"
+    title="CGTN coverage of WYSS 2026">
+  </iframe>
+  <figcaption style="text-align: center;">
+    <em>CGTN coverage of the World Young Scientist Summit 2026.</em>
+  </figcaption>
+</figure>
+
+
 ![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/Day2_a.jpeg){width=90% fig-align="center"}
 
 Several important messages emerged from the WYSS 2026 plenary sessions. One that particularly resonated with me was that science is like water. It should flow across borders. Scientific knowledge should be shared freely, allowing researchers from different countries and backgrounds to learn from one another and work together to address global challenges. We must also embrace AI across disciplines and explore its potential to advance science, education, industry and society.
