@@ -158,10 +158,11 @@ After three days filled with scientific discussions, new ideas and opportunities
 
 The view from our hotel showed another side of Wenzhou, with its impressive high-rise buildings and busy commercial landscape. It reflected the city's rapid development and urban character.
 
-![At the World Young Scientist Summit 2026.](fig/wonzhou.jpeg){width=90% fig-align="center"}
+![At the World Young Scientist Summit 2026.](fig/wonzhou.jpeg){width=80% fig-align="center"}
+
 However, our final day also gave us an opportunity to discover a very different side of the region as we travelled to Yongjia County to explore its beautiful countryside, traditional villages and cultural heritage. Andy, our tour guide, made the day even more enjoyable with his excellent guidance and friendly approach.
 
-![At the World Young Scientist Summit 2026.](fig/tour.png){width=90% fig-align="center"}
+![Yongjia County](fig/tour.png){width=90% fig-align="center"}
 
 #### Floating along the Nanxi river
 
@@ -177,7 +178,7 @@ The village's philosophy can be summed up in a beautiful idea: "studying brings 
 
 Our next stop was Yantou Village, home to Lishui Ancient Street. The long wooden gallery street, built during the Ming Dynasty, runs alongside a canal that was also part of the village's water-management system. Walking along this historic street offered a glimpse into how earlier generations designed their communities around both everyday life and the natural environment.
 
-#### Our final stop: Taogong Cave
+#### Taogong Cave
 
 We ended our countryside tour at Taogong Cave, a striking natural cavern associated with Taoist traditions. Its impressive rock formations and peaceful surroundings made it a memorable final stop on our exploration of Yongjia.
 
@@ -194,7 +195,7 @@ I want to end by giving a very special shout-out to Zoe and Georgia, who did a f
 
 Zoe and Georgia went above and beyond to look after every participant, from the visa application process before our arrival to our departure from China. What impressed me most was the individual attention they gave to everyone's needs and requests. They paid attention to even the smallest details and were always ready to help. Their support went far beyond coordinating the conference programme. They made sure we felt supported throughout the entire journey.
 
-![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/zoe.jpeg){width=45% fig-align="center"}
+![Zoe and Georgia - Members of the main coordinating team (Photo credit: WYSS 2026 Photo Gallery)](fig/zoe.jpeg){width=45% fig-align="center"}
 
 They also carefully managed the programme so that we could attend sessions on time, make the most of the scientific discussions and have opportunities to connect with fellow participants beyond the formal sessions. Coordinating an international event involving participants from many countries is no small task and their dedication and attention to detail made the experience smooth and enjoyable.
 
@@ -209,6 +210,6 @@ I would also like to acknowledge the **Zhejiang Association of Young Professiona
 
 A special thank you to the amazing team at **Wenzhou Jingcheng International Travel Agency** for making our excursions such an enjoyable part of the journey. During our Day 3 visit to Shuomen Ancient Port, our guide, Wu Aifeng, shared valuable insights into the site's history and significance, helping us appreciate it beyond what we could see. On our final day, Andy guided us through the beautiful countryside of Yongjia. The entire team were friendly, knowledgeable, fluent in English and incredibly supportive throughout our stay. They made it easy for us to learn about the places we visited and understand the stories and traditions behind them. Their professionalism, willingness to help and warm hospitality made exploring Wenzhou and its surroundings a truly memorable experience. If you are planning to visit Wenzhou, I would certainly recommend Wenzhou Jingcheng International Travel Agency for exploring the region's natural beauty, history and cultural heritage.
 
-![At the World Young Scientist Summit 2026 with Jerry Wei and a fellow student volunteer from Wenzhou-Kean University.](fig/tourguide.png){width=80% fig-align="center"}
+![Team from Wenzhou Jingcheng International Travel Agency.](fig/tourguide.png){width=80% fig-align="center"}
 
 Looking back, WYSS 2026 was much more than a scientific gathering. It was an opportunity to exchange ideas, learn from researchers across disciplines, build international connections and experience the culture and hospitality of Wenzhou. I returned with new perspectives on the role of AI in science, the importance of responsible research and the value of global collaboration. The summit also reinforced the importance of involving young people in shaping the future of AI and empowering them to contribute to its responsible development. I am grateful to OWSD for this opportunity and to everyone who made this journey so memorable. Most importantly, the summit reminded me that science grows stronger when we share knowledge, cross borders and work together towards a better future.
