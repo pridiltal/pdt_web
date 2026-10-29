@@ -32,6 +32,9 @@ One of the most thought-provoking parts of the International Young Scientists' R
 
 One point that particularly stood out to me was the growing tendency to focus on producing polished manuscripts rather than on the quality of the scientific work itself. A well-written paper is important, but it should never become more important than sound scientific results, reliable data and the proper validation of findings. These are the foundations of meaningful scientific progress. AI tools will continue to evolve, but the fundamental purpose of science remains unchanged: to explain and understand how the natural world works while building reliable, evidence-based knowledge.
 
+
+<iframe height="578" width="325" src="https://www.tiktok.com/player/v1/7700210905736367393?embed_from=webapp_share&music_info=1&description=1&autoplay=1&muted=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+
 The discussion also highlighted the importance of curiosity-driven research, scientific integrity and collaboration across disciplines and national borders. Scientific progress depends not simply on producing more publications, but on asking meaningful questions, carefully validating results and building knowledge that others can trust and build upon. In an increasingly connected world, collaboration across disciplines and countries is essential for addressing complex scientific challenges.
 
 Another important point was the potential of AI to make science more accessible and inclusive. Language barriers and limited access to scientific resources can prevent researchers, particularly those in developing countries, from fully participating in global scientific activities. AI tools can help researchers improve their academic writing, translate scientific information into their own languages and access scientific knowledge more quickly. These opportunities are particularly important for developing countries, enabling their researchers to engage more actively in global scientific programmes, contribute their own knowledge and participate in scientific progress. By making knowledge more accessible and supporting communication across languages, AI has the potential to accelerate scientific progress worldwide.
@@ -62,9 +65,12 @@ Before the plenary sessions, I visited an exhibition showcasing several cutting-
 
 ![At the World Young Scientist Summit 2026.](fig/Day2_b.png){width=80% fig-align="center"}
 
-Several important messages emerged from the WYSS 2026 plenary sessions. One that particularly resonated with me was that science is like water. It should flow across borders. Scientific knowledge should be shared freely, allowing researchers from different countries and backgrounds to learn from one another and work together to address global challenges. We must also embrace AI across disciplines and explore its potential to advance science, education, industry and society.
+[Watch the CGTN news coverage of WYSS 2026](https://news.cgtn.com/news/2026-10-26/VHJhbnNjcmlwdDkzMDA4/index.html)
+
 
 ![At the World Young Scientist Summit 2026. (Photo credit: WYSS 2026 Photo Gallery)](fig/Day2_a.jpeg){width=90% fig-align="center"}
+
+Several important messages emerged from the WYSS 2026 plenary sessions. One that particularly resonated with me was that science is like water. It should flow across borders. Scientific knowledge should be shared freely, allowing researchers from different countries and backgrounds to learn from one another and work together to address global challenges. We must also embrace AI across disciplines and explore its potential to advance science, education, industry and society.
 
 Another key message was that innovation is not a solo performance. It has become a shared pursuit and a joint effort across society. Meaningful innovation requires collaboration among researchers, universities, industries, businesses and governments. Bringing these different groups together helps transform scientific discoveries into practical solutions that benefit society.
 
@@ -195,4 +201,4 @@ A special thank you to the amazing team at **Wenzhou Jingcheng International Tra
 
 ![At the World Young Scientist Summit 2026 with Jerry Wei and a fellow student volunteer from Wenzhou-Kean University.](fig/tourguide.png){width=80% fig-align="center"}
 
-Zoe, Georgia, the student volunteers, travel team and everyone who contributed behind the scenes-thank you for your dedication, kindness and outstanding hospitality. The scientific programme brought us together, but the people who worked so hard to make it happen made the entire journey truly memorable.
+Looking back, WYSS 2026 was much more than a scientific gathering. It was an opportunity to exchange ideas, learn from researchers across disciplines, build international connections and experience the culture and hospitality of Wenzhou. I returned with new perspectives on the role of AI in science, the importance of responsible research and the value of global collaboration. The summit also reinforced the importance of involving young people in shaping the future of AI and empowering them to contribute to its responsible development. I am grateful to OWSD for this opportunity and to everyone who made this journey so memorable. Most importantly, the summit reminded me that science grows stronger when we share knowledge, cross borders and work together towards a better future.
