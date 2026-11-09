@@ -26,12 +26,18 @@ about:
 
 Department of Computational Mathematics, University of Moratuwa, Sri Lanka
 
+- CM 1410 Probability and Statistics (Batch 25)
 - CM 2420 Statistical Inference (Batch 23)
 - CM 4450 Computational Bayesian Statistics (Batch 21)
+- CM 4460 Time Series Analysis and Forecasting (Batch 22)
 
 Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
 
 - MA 5124 Financial Time Series Analysis & Forecasting (M.Sc.in Financial Mathematics)
+
+Department of Transport Management & Logistics Engineering, Faculty of Engineering, University of Moratuwa, Sri Lanka
+
+- LT2010 - Data Science for Transport and Logistics Systems (Bachelor of Science Honours in Transport & Logistics Management)
 
 ## 2025
 
@@ -76,7 +82,7 @@ Department of Computational Mathematics, University of Moratuwa, Sri Lanka
 
 Department of Transport Management & Logistics Engineering, University of Moratuwa, Sri Lanka
 
-- LT2010 - Data Science for Transport and Logistics Systems
+- LT2010 - Data Science for Transport and Logistics Systems (Bachelor of Science Honours in Transport & Logistics Management)
 
 ## 2022
 
