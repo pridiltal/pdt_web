@@ -47,8 +47,6 @@ Department of Computational Mathematics, University of Moratuwa, Sri Lanka
 - CM 2111 Statistical Inference (Batch 22)
 - CM 2420 Statistical Inference (Batch 22)
 
-## 2024
-
 Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
 
 - MA 5680 Time Series Analysis (M.Sc. in Operational Research)
@@ -57,12 +55,13 @@ Department of Management of Technology, Faculty of Business, University of Morat
 
 - TM 5140 Data-driven Decision Making (MBA / PG Diploma in Business Administration in Management of Technology and MBA / PG Diploma in Business Administration in Entrepreneurship)
 
+## 2024
+
 Department of Computational Mathematics, University of Moratuwa, Sri Lanka
 
 - CM 1131 Elements of Probability and Statistics (Batch 22)
 - CM 1410 Probability and Statistics (Batch 22)
-
-## 2023
+- CM 3430 Computational Statistics (Batch (Batch 21)
 
 Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
 
@@ -72,6 +71,8 @@ Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri L
 Department of Management of Technology, Faculty of Business, University of Moratuwa, Sri Lanka
 
 - TM 5140 Data-driven Decision Making (MBA / PG Diploma in Business Administration in Management of Technology and MBA / PG Diploma in Business Administration in Entrepreneurship)
+
+## 2024
 
 Department of Computational Mathematics, University of Moratuwa, Sri Lanka
 
